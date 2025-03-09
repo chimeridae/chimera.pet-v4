@@ -1,5 +1,5 @@
 <section class="row">
-    <span id="copyright-date" class="text">est. 2023 - 20XX <img src="/img/pokemail.gif" class="pixel"> <span class="larger"><a href="mailto:mail@chimera.pet">chimera</a></span></span>
+    <span class="text"><span id="copyright-date">est. 2023 - 20XX</span>&nbsp;<img src="/img/pokemail.gif" class="pixel"> <span class="larger"><a href="mailto:mail@chimera.pet">chimera</a></span></span>
 </section>
 
 <section>
