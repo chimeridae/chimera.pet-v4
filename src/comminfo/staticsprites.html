@@ -1,0 +1,69 @@
+<div id="staticsprite" class="outer purpleborder" style="margin-top:1em">
+   <div class="row">
+
+        <div id="commsdesktop" class="column">
+            <div id="flex" class="examples gallery-thumbs">                
+                {% for post in collections.staticsprites reversed %}
+                <div class="comminfo staticsprites thumb">
+                   <a href="/img/art/{{ post.data.full }}" draggable="false" data-fancybox="staticsprites" data-caption="{{ post.data.title }}">
+                       {{ post.templateContent }}
+                   </a>
+               </div>               
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="column" style="flex:75%">
+            <div id="commsmobile" align="center"><img alt="Static sprite of one of my fursonas" src="/img/art/f1.png"></div>
+            <h2 class="price stroke">Static sprite</h2>
+            <span style="font-size:smaller"><h2 class="price stroke">$35 - $52</h2></span>
+
+            <div class="inner" id="commsdesktop">
+                <p align="center">A fullbody static sprite of your character(s), starting at 100x100 in size.</p>
+                <hr class="dashed">
+                <ul style="text-align:left">
+                    <li>2 characters maximum (+50% for an extra character)</li>
+                    <li>Anthros, creatures, and humans all okay</li>
+                    <li>These poses will typically be more dynamic and varied than what's offered in animated sprites.</li>
+                    <li>Because of the small size, complex designs will likely be altered or simplified.</li>
+                    <li>Sprites with multiple characters (or upon request) can be slightly larger than 100x100.</li>
+                </ul>
+            </div>
+
+            <div class="inner" align="center" id="commsmobile">
+                <details>
+                    <summary><img src="/img/blackarrow.gif" alt="Black arrow gif"> Full information</summary>
+                    <hr class="dashed">
+                <p align="center">A fullbody static sprite of your character(s), starting at 100x100 in size.</p>
+                <hr class="dashed">
+                <ul style="text-align:left">
+                    <li>2 characters maximum (+50% for an extra character)</li>
+                    <li>Anthros, creatures, and humans all okay</li>
+                    <li>These poses will typically be more dynamic and varied than what's offered in animated sprites.</li>
+                    <li>Because of the small size, complex designs will likely be altered or simplified.</li>
+                    <li>Sprites with multiple characters (or upon request) can be slightly larger than 100x100.</li>
+                </ul>
+                </details>
+            </div>
+
+            <div id="commsmobile" class="column">
+                <div class="inner" style="margin-top:1em" align="center">
+                <details>
+                    <summary><img src="/img/blackarrow.gif" alt="Black arrow gif"> More examples (click/tap to zoom)</summary>
+                    <hr class="dashed">
+                <div id="flex" class="examples gallery-thumbs">                
+                    {% for post in collections.staticsprites reversed %}
+                    <div class="comminfo staticsprites thumb">
+                       <a href="/img/art/{{ post.data.full }}" draggable="false" data-fancybox="mobile-staticsprites" data-caption="{{ post.data.title }}">
+                           {{ post.templateContent }}
+                       </a>
+                   </div>               
+                    {% endfor %}
+                </div>
+            </details>
+            </div>
+            </div>
+        </div>
+
+   </div>
+</div>

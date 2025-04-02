@@ -1,0 +1,72 @@
+ <div id="sugimorifullbody" class="outer greenborder" style="margin-top:1em">
+    <div class="row">
+        <div id="commsdesktop" class="column">
+            
+            <div class="f-carousel" id="watercolorfullbody">
+                <div class="f-carousel__viewport">
+                  <div class="f-carousel__track">
+                    {% for post in collections.watercolorfullbody %}
+                    <div class="f-carousel__slide">
+                        <a data-fancybox="watercolorfullbody" href="/img/art/{{ post.data.full }}">
+                            <img draggable="false" src="/img/art/{{ post.data.full }}" alt="{{ post.data.alt }}">
+                        </a>
+                    </div>
+                    {% endfor %}
+                  </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <div class="column" style="flex:75%">
+            <div id="commsmobile" align="center"><img alt="Sugimori Watercolor styled example of Ribes" src="/img/art/ribes.png"></div>
+            <h2 class="price stroke">Sugimori-styled watercolor fullbody</h2>
+            <span style="font-size:smaller"><h2 class="price stroke">$50</h2></span>
+            <div class="inner" id="commsdesktop">
+                <p align="center">A fullbody drawing rendered in the style of Ken Sugimori's watercolor art.</p>
+            <hr class="dashed">
+                <ul style="text-align:left">
+                    <li>1 character max per order.</li>
+                    <li>Artistic liberty given in adapting your character's design; details may be altered in order to be drawn in a more accurate Pokemon style.</li>
+                    <li>Complex designs will likely be altered or simplified.</li>
+                    <li><b>Only anthros and creatures for now,</b> sorry...</li>                   
+                </ul>
+            </div>
+            <div class="inner" style="margin-bottom:1em" id="commsmobile">
+            <details>
+                <summary style="text-align:center"><img src="/img/blackarrow.gif" alt="Black arrow gif"> Full information</summary>
+                <hr class="dashed">
+                <p align="center">A fullbody drawing rendered in the style of Ken Sugimori's watercolor art.</p>
+            <hr class="dashed">
+                <ul style="text-align:left">
+                    <li>1 character max per order.</li>
+                    <li>Artistic liberty given in adapting your character's design; details may be altered in order to be drawn in a more accurate Pokemon style.</li>
+                    <li>Complex designs will likely be altered or simplified.</li>
+                    <li><b>Only anthros and creatures for now,</b> sorry...</li>                   
+                </ul>
+            </details>
+            </div>
+            <div class="inner" id="commsmobile">
+                <details>
+                    <summary style="text-align:center"><img src="/img/blackarrow.gif" alt="Black arrow gif"> More examples (click/tap to zoom)</summary>
+                    <hr class="dashed">
+                <div class="f-carousel" id="watercolorfullbody">
+                    <div class="f-carousel__viewport">
+                      <div class="f-carousel__track">
+                        {% for post in collections.watercolorfullbody %}
+                        <div class="f-carousel__slide">
+                            <a data-fancybox="watercolorfullbody" href="/img/art/{{ post.data.full }}">
+                                <img draggable="false" src="/img/art/{{ post.data.full }}" alt="{{ post.data.alt }}">
+                            </a>
+                        </div>
+                        {% endfor %}
+                      </div>
+                    </div>
+                </div>
+                </details>
+            </div>
+        </div>
+    </div>
+   
+</div>

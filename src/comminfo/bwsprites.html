@@ -1,0 +1,157 @@
+ <div id="bw" class="outer greenborder">
+    <div class="row">
+        <div class="column" style="flex:100%">
+            <div id="commsmobile" align="center"><img alt="BW Sprite example of Critter" src="/img/art/bwcritter2x.gif"></div>
+        <h2 class="price stroke">Black & White animated sprite</h2>
+        <span style="font-size:smaller"><h2 class="price stroke">$60<span title="For one sprite alone">*</span> - $80<span title="For a sprite and scene">*</span></h2></span>
+           <div class="inner" id="commsdesktop" align="center">
+            <p>A fullbody sprite animated in the puppet style of Pokemon Black and White.</p>
+            <hr class="dashed">
+                <ul style="text-align:left">
+                    <li>1 character max per order.</li>
+                    <li>Starts at $60 USD for sprite alone, or $80 USD to include a custom scene on a premade background.</li>
+                    <li>Examples shown are at 2x size. By default you will receive a 1x and 2x size sprite.</li>
+                    <li>The poses here will run the chance of being a little less dynamic than a static sprite in order to allow for more character expression through the animation instead.</li>
+                    <li>Complex designs will likely be altered or simplified.</li>
+                    <li>Transparent by default. Can be given colored outlines on request.</li>
+                    <li>Default text on scenes is either "A wild [name] appeared!" or "Trainer [name] wants to battle!" unless specified.</li>
+                </ul>
+            <hr class="dashed">
+            <p>Premade backgrounds are provided by <a href="https://www.deviantart.com/snivy101/art/Pokemon-B2W2-Battle-Backgrounds-319706977" target="_blank">Snivy101,</a> and additional assets are from the Spriter's Resource.</p>
+           </div>
+
+           <!-- mobile information -->
+
+           <div class="inner" id="commsmobile" align="center">
+            <details>
+                <summary><img src="/img/blackarrow.gif" alt="Black arrow gif"> Full information</summary>
+                <hr class="dashed">
+                <p>A fullbody sprite animated in the puppet style of Pokemon Black and White.</p>
+            <hr class="dashed">
+                <ul style="text-align:left">
+                    <li>1 character max per order.</li>
+                    <li>Starts at $60 USD for sprite alone, or $80 USD to include a custom scene on a premade background.</li>
+                    <li>Examples shown are at 2x size. By default you will receive a 1x and 2x size sprite.</li>
+                    <li>The poses here will run the chance of being a little less dynamic than a static sprite in order to allow for more character expression through the animation instead.</li>
+                    <li>Complex designs will likely be altered or simplified.</li>
+                    <li>Transparent by default. Can be given colored outlines on request.</li>
+                    <li>Default text on scenes is either "A wild [name] appeared!" or "Trainer [name] wants to battle!" unless specified.</li>
+                </ul>
+            <hr class="dashed">
+            <p>Premade backgrounds are provided by <a href="https://www.deviantart.com/snivy101/art/Pokemon-B2W2-Battle-Backgrounds-319706977" target="_blank">Snivy101,</a> and additional assets are from the Spriter's Resource.</p>
+           </div>
+            </details>
+        </div>
+
+        <div class="column" id="commsdesktop" style="align-content: center">
+            
+            <div id="flex" class="examples gallery-thumbs">                
+                {% for post in collections.bwsprites reversed %}
+                <div class="comminfo thumb">
+                   <a href="/img/art/{{ post.data.full }}" draggable="false" data-fancybox="bwsprites" data-caption="{{ post.data.title }}">
+                       {{ post.templateContent }}
+                   </a>
+               </div>               
+                {% endfor %}
+            </div>
+            
+           
+            <div class="f-carousel" id="myCarousel">
+                <div class="f-carousel__viewport">
+                  <div class="f-carousel__track">
+                    <div class="f-carousel__slide">
+                        <a data-fancybox="scenes" href="/img/art/phase.gif"><img src="/img/art/phase.gif" alt="BW Scene example #1 of Phase"></a>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <a data-fancybox="scenes" href="/img/art/maple.gif">
+                            <img src="/img/art/maple.gif" alt="BW Scene example #2 of Maple">
+                        </a>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <a data-fancybox="scenes" href="/img/art/atrox.gif">
+                            <img src="/img/art/atrox.gif" alt="BW Scene example #3 of Atrox">
+                        </a>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <a data-fancybox="scenes" href="/img/art/mischief.gif">
+                            <img src="/img/art/mischief.gif" alt="BW Scene example #4 of Mischief">
+                        </a>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <a data-fancybox="scenes" href="/img/art/papaya.gif">
+                            <img src="/img/art/papaya.gif" alt="BW Scene example #5 of Papaya">
+                        </a>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <a data-fancybox="scenes" href="/img/art/chessie.gif">
+                            <img src="/img/art/chessie.gif" alt="BW Scene example #6 of Chessie">
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+    </div>
+
+<!-- mobile examples -->
+
+<div class="inner" id="commsmobile" style="text-align:center;margin-top:1em">
+<details>
+    <summary><img src="/img/blackarrow.gif" alt="Black arrow gif"> More examples (click/tap to zoom)</summary>
+    <hr class="dashed">
+        <div class="column" id="commsmobile" style="align-content: center">
+            
+            <div id="flex" class="examples gallery-thumbs">                
+                {% for post in collections.bwsprites reversed %}
+                <div class="comminfo thumb">
+                   <a href="/img/art/{{ post.data.full }}" draggable="false" data-fancybox="mobile-bwsprites" data-caption="{{ post.data.title }}">
+                       {{ post.templateContent }}
+                   </a>
+               </div>               
+                {% endfor %}
+            </div>
+            
+           
+            <div class="f-carousel" id="mobileCarousel">
+                <div class="f-carousel__viewport">
+                  <div class="f-carousel__track">
+                    <div class="f-carousel__slide">
+                        <a data-fancybox="mobile-scenes" href="/img/art/phase.gif"><img src="/img/art/phase.gif" alt="BW Scene example #1 of Phase"></a>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <a data-fancybox="mobile-scenes" href="/img/art/maple.gif">
+                            <img src="/img/art/maple.gif" alt="BW Scene example #2 of Maple">
+                        </a>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <a data-fancybox="mobile-scenes" href="/img/art/atrox.gif">
+                            <img src="/img/art/atrox.gif" alt="BW Scene example #3 of Atrox">
+                        </a>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <a data-fancybox="mobile-scenes" href="/img/art/mischief.gif">
+                            <img src="/img/art/mischief.gif" alt="BW Scene example #4 of Mischief">
+                        </a>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <a data-fancybox="mobile-scenes" href="/img/art/papaya.gif">
+                            <img src="/img/art/papaya.gif" alt="BW Scene example #5 of Papaya">
+                        </a>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <a data-fancybox="mobile-scenes" href="/img/art/chessie.gif">
+                            <img src="/img/art/chessie.gif" alt="BW Scene example #6 of Chessie">
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+</details>
+
+
+
+</div>

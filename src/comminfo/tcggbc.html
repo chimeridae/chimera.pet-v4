@@ -1,0 +1,84 @@
+<div id="tcggbc" class="outer yellowborder" style="margin-top:1em">
+    <div class="row">
+ 
+         <div class="column" style="flex:75%">           
+                 <div id="commsmobile" align="center">
+                    <div id="flex" class="examples">                              
+                        <div class="comminfo tcgexample">
+                           <a href="/img/art/TCGexamples.png" draggable="false" data-fancybox="mobile-tcggbc" data-caption="{{ post.data.title }}">
+                            <img src="/img/art/TCGexamples.png" alt="Example of the differences between a Holo and Scene TCG commission">
+                           </a>
+                       </div>               
+                    </div>
+                 </div>
+                 <h2 class="price stroke">Trading Card Game GBC styled pixel art</h2>
+                 <span style="font-size:smaller"><h2 class="price stroke">$25 - $35</h2></span>
+     
+                 <div class="inner" id="commsdesktop">
+                     <p align="center">A limited palette pixel of your character, imitating the art style of <a href="https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Trading_Card_Game_(video_game)" target="_blank">Pokemon TCG for Gameboy Color.</a></p>
+                     <hr class="dashed">
+                     <ul style="text-align:left">
+                         <li>This commission type has two options: Holo ($25) and Scene ($35).</li>
+                         <li><b>Holo</b> pixels have a default background that emulate the holographic sheen of a card.</li>
+                         <li><b>Scene</b> pixels have more detailed backgrounds that place your character into a specific environment of your choice.</li>
+                         <li>This commission type is usually (but not always) limited to 4 colors. I usually pick them myself, but you're free to suggest a palette you'd like.</li>
+                     </ul>
+                 </div>
+ 
+                 <div class="inner" align="center" id="commsmobile">
+                     <details>
+                     <summary><img src="/img/blackarrow.gif" alt="Black arrow gif"> Full information</summary>
+                         <hr class="dashed">
+                         <p align="center">A limited palette pixel of your character, imitating the art style of <a href="https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Trading_Card_Game_(video_game)" target="_blank">Pokemon TCG for Gameboy Color.</a></p>
+                         <hr class="dashed">
+                         <ul style="text-align:left">
+                             <li>This commission type has two options: Holo ($25) and Scene ($35).</li>
+                             <li><b>Holo</b> pixels have a default background that emulate the holographic sheen of a card.</li>
+                             <li><b>Scene</b> pixels have more detailed backgrounds that place your character into a specific environment of your choice.</li>
+                             <li>This commission type is usually (but not always) limited to 4 colors. I usually pick them myself, but you're free to suggest a palette you'd like.</li>
+                         </ul>
+                     </details>
+                 </div>
+ 
+                 <div class="inner" id="commsmobile" align="center" style="margin-top:1em">
+                     <details>
+                         <summary><img src="/img/blackarrow.gif" alt="Black arrow gif"> More examples (click/tap to zoom)</summary>
+                         <hr class="dashed">
+                         
+                         <div id="commsmobile" class="column">
+                             <div id="flex" class="examples gallery-thumbs">                
+                                 {% for post in collections.tcggbc %}
+                                 <div class="comminfo tcggbc thumb">
+                                    <a href="/img/art/{{ post.data.full }}" draggable="false" data-fancybox="mobile-tcggbc" data-caption="{{ post.data.title }}">
+                                        {{ post.templateContent }}
+                                    </a>
+                                </div>               
+                                 {% endfor %}
+                             </div>
+                         </div>
+ 
+                     </details>
+                 </div>
+         </div>
+         
+         <div id="commsdesktop" class="column">
+            <div id="flex" class="examples">                              
+                <div class="comminfo tcgexample">
+                   <a href="/img/art/TCGexamples.png" draggable="false" data-fancybox="tcggbc" data-caption="{{ post.data.title }}">
+                    <img src="/img/art/TCGexamples.png" alt="Example of the differences between a Holo and Scene TCG commission">
+                   </a>
+               </div>               
+            </div>
+             <div id="flex" class="examples gallery-thumbs">                
+                 {% for post in collections.tcggbc %}
+                 <div class="comminfo tcggbc thumb">
+                    <a href="/img/art/{{ post.data.full }}" draggable="false" data-fancybox="tcggbc" data-caption="{{ post.data.title }}">
+                        {{ post.templateContent }}
+                    </a>
+                </div>               
+                 {% endfor %}
+             </div>
+         </div>
+ 
+    </div>
+ </div>

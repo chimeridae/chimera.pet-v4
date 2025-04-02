@@ -1,0 +1,69 @@
+<div id="headwiggle" class="outer yellowborder" style="margin-top:1em">
+   <div class="row">
+        
+        <div id="commsdesktop" class="column">
+            <div id="flex" class="examples gallery-thumbs">                
+                {% for post in collections.teeny %}
+                <div class="comminfo teeny thumb">
+                   <a href="/img/art/{{ post.data.full }}" draggable="false" data-fancybox="teeny" data-caption="{{ post.data.title }}">
+                       {{ post.templateContent }}
+                   </a>
+               </div>               
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="column" style="flex:50%">           
+            <div id="commsmobile" align="center"><img alt="Teeny box sprite of Critter yapping" src="/img/art/critteryap.gif"></div>
+            <h2 class="price stroke">Teeny box sprite</h2>
+            <span style="font-size:smaller"><h2 class="price stroke">$15</h2></span>
+
+            <div class="inner" id="commsdesktop">
+                <p align="center">A tiny 32x32 pixel, imitating Pokemon's retro box sprites.</p>
+                <hr class="dashed">
+                <ul style="text-align:left">
+                    <li>Animation/pose will stay relatively consistent, but expression can be changed however you'd like</li>
+                    <li>Anthros, creatures, and humans all okay</li>
+                    <li>Complex designs will be simplified due to the small nature of the sprite</li>
+                    <li>Examples shown are at 4x size</li>
+                </ul>
+            </div>
+
+            <div class="inner" align="center" id="commsmobile">
+                <details>
+                <summary><img src="/img/blackarrow.gif" alt="Black arrow gif"> Full information</summary>
+                    <hr class="dashed">
+                <p align="center">A tiny 32x32 pixel, imitating Pokemon's retro box sprites.</p>
+                <hr class="dashed">
+                <ul style="text-align:left">
+                    <li>Animation/pose will stay relatively consistent, but expression can be changed however you'd like</li>
+                    <li>Anthros, creatures, and humans all okay</li>
+                    <li>Complex designs will be simplified due to the small nature of the sprite</li>
+                    <li>Examples shown are at 4x size</li>
+                </ul>
+                </details>
+            </div>
+
+            <div class="inner" id="commsmobile" align="center" style="margin-top:1em">
+                <details>
+                    <summary><img src="/img/blackarrow.gif" alt="Black arrow gif"> More examples (click/tap to zoom)</summary>
+                    <hr class="dashed">
+                    
+                    <div id="commsmobile" class="column">
+                        <div id="flex" class="examples gallery-thumbs">                
+                            {% for post in collections.teeny %}
+                            <div class="comminfo teeny thumb">
+                               <a href="/img/art/{{ post.data.full }}" draggable="false" data-fancybox="mobile-teeny" data-caption="{{ post.data.title }}">
+                                   {{ post.templateContent }}
+                               </a>
+                           </div>               
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                </details>
+            </div>
+    </div>
+
+   </div>
+</div>
