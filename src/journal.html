@@ -26,7 +26,7 @@ icon: icon
             <span class="date">{{ post.date | date_to_long_string }} <img src="/img/date.gif" alt="Journal pixel"></span>
             <span class="date">tagged as: 
               {% for tag in post.data.tags %}
-              <a class="tag" href="../journal/tagged/{{ tag }}">{{ tag }}</a>
+              <a class="tag" href="/journal/tagged/{{ tag }}">{{ tag }}</a>
               {% endfor %}
               </span>
           </section>

@@ -289,6 +289,40 @@ h3, h4 {
         max-width: 100%;
         max-height: 100%;
       }
+
+      .fontawesome-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 2rem;
+        flex-wrap: wrap;
+        width: 100%;
+        box-sizing: border-box;
+        gap: 1rem;
+        align-items: flex-start;
+      }
+
+      .fontawesome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1 1 120px;
+        min-width: 120px;
+        margin: 0;
+        height: fit-content;
+      }
+
+      .fontawesome p {
+        margin: 0.5rem 0;
+        text-align: center;
+      }
+
+      /* hi ethan/lemmy if you read this i liked your fontawesome buttons. ily */
+
+      #chattable {
+        height: 60vh !important;
+      }
+
 /* media query */
 
 

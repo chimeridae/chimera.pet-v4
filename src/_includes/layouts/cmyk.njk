@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="/css/{{ css }}.css"/>
-    <link rel="stylesheet" href="/css/comments.css"/>
-    <link href="/img/cmypaw.gif" rel="shortcut icon" type="image/ico">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="/js/fancybox.umd.js"></script>
-    <link rel="stylesheet" href="/css/fancybox.css"/>
-    <script src="/js/carousel.umd.js"></script>
-    <link rel="stylesheet" href="/css/carousel.css"/>
-    <script src="https://iframe.chat/scripts/main.min.js"></script>
-    <script src="/js/global.js"></script>
-    <title>animals' den ➜ {{ title }}</title>
-  </head>
+<head>
+  {# opengraph information #}
+  <meta charset="UTF-8"/>
+  <title>animals' den ➜ {{ title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  {% include '../../cmykopengraph.njk' %}
+  <link href="/img/cmypaw.gif" rel="shortcut icon" type="image/ico">
+
+  {# css information #}
+  <link rel="stylesheet" href="/css/{{ css }}.css"/>
+  <link rel="stylesheet" href="/css/comments.css"/>
+
+  {# JS #}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="/js/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="/css/fancybox.css"/>
+  <script src="/js/carousel.umd.js"></script>
+  <link rel="stylesheet" href="/css/carousel.css"/>
+  <script src="https://iframe.chat/scripts/main.min.js"></script>
+  <script src="/js/global.js"></script>
+
+</head>
 
   <body>
+    <button onclick="topFunction()" id="myBtn" title="Back to top">Back to Top<br><img title="Back to top" alt="Back to top" src="/img/harpywip.gif"></button>
     <header>
       {% block header %}
         {% include 'partials/cmyk/header.nunjucks' %}

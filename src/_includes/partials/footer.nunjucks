@@ -9,6 +9,7 @@
             <script src="/js/tippy.js"></script>
             <script src="/js/quotes.js"></script>
             <script src="/js/global.js"></script>
+            <script src="/js/scrolltotop.js"></script>
         </div>
     </div>
 </section>

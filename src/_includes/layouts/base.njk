@@ -2,25 +2,29 @@
 <html lang="en">
 
 <head>
+  {# opengraph information #}
   <meta charset="UTF-8" />
+  <title>animals' den ➜ {{ title }}</title>
+  {% include '../../artopengraph.njk' %}
+  <link href="/img/cmypaw2.gif" rel="shortcut icon" type="image/ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  {# css info #}
   <link rel="stylesheet" href="/css/{{ css }}.css"/>
   <link rel="stylesheet" href="/css/art.css"/>
-  <link href="/img/cmypaw2.gif" rel="shortcut icon" type="image/ico">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="/js/fancybox.umd.js"></script>
-<link rel="stylesheet" href="/css/fancybox.css"/>
-<script src="/js/carousel.umd.js"></script>
-<link
-  rel="stylesheet"
-  href="/css/carousel.css"
-/>
 
-<script src="https://iframe.chat/scripts/main.min.js"></script>
-  <title>animals' den ➜ {{ title }}</title>
+  {# JS #}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="/js/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="/css/fancybox.css"/>
+  <script src="/js/carousel.umd.js"></script>
+  <link rel="stylesheet" href="/css/carousel.css"/>
+  <script src="https://iframe.chat/scripts/main.min.js"></script>
+
 </head>
 
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Back to top">Back to Top<br><img title="Back to top" alt="Back to top" src="/img/by sol.gif"></button>
   <header>{% include 'partials/header.nunjucks' %}</header>
 
   <nav class="sticky">{% include 'partials/navigation.nunjucks' %}</nav>
@@ -33,5 +37,5 @@
     </main>
 </div>
   <footer>{% include 'partials/footer.nunjucks' %}</footer>
-
+  <script src="https://kit.fontawesome.com/df32c2b320.js" crossorigin="anonymous"></script>
 </body>

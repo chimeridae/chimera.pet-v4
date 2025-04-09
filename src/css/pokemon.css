@@ -124,6 +124,8 @@ aside section:hover {
 }
 
 .outer {
+    color: #533c33;
+    font-family: balsamiqsans;
     background: var(--outerbg);
     padding:1.5em;
     border-image: url('/img/pokemon/inner.png') 16;

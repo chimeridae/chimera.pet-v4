@@ -120,7 +120,7 @@
    }
 
    .senderInfo:has(.owner):before {
-    content: url('https://litter.catbox.moe/c8sx5k.gif');
+    content: url('https://files.catbox.moe/o9necm.gif');
     margin-right: 3px;
    }
 
