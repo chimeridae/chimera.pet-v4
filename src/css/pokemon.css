@@ -1,5 +1,5 @@
 :root {
-    --outerbg: linear-gradient(to bottom, rgba(254,255,232,0.2) 0%,rgba(150, 101, 38, 0.48)100%),#fff2ab;
+    --outerbg: #fff2ab;
     --header-image: url('/img/route34.png');
     --main-bg: url('/img/pokemon/yellow tubotubo.gif');
     --header-image: url('/img/route34.png');
@@ -7,6 +7,17 @@
     --border-hover: black;
     --sidebar-holder: #415940 url('/img/pokemon/XD4.png');
 }
+
+main.inner {
+    border: none;
+    border-radius: 8px;
+}
+
+.dashed {
+    border-top: dotted 2px #63636b;
+    margin-bottom: 2rem;
+}
+
 #leftsidebar {
     border-right: 1px solid;
 }

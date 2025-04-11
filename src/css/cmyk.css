@@ -58,11 +58,11 @@ cursor: url("/img/cursor.png"), default;
 }
 
 img, button:hover, a:hover {
-    cursor: url("/img/select.png"), pointer !important;
+    cursor: url("/img/select.png"), pointer;
 }
 
-a:active, button:active {
-    cursor: url("/img/click.png"), pointer;
+img:active, a:active, button:active {
+    cursor: url("/img/click.png"), pointer  !important;
 }
 /* flex, row/column */
 
@@ -167,6 +167,12 @@ background-color: white;
 border: 1px dashed black;
 border-radius: 3px;
 padding:10px;
+}
+
+.tabcontent {
+    display: none;
+    border: 3px double;
+    border-radius:8px;
 }
 
 .outer {
@@ -288,7 +294,6 @@ animation: spin 2s infinite;
     grid-template-columns: 7em auto;
     grid-template-rows: repeat(7, 1fr);
     gap: .5em;
-    align-items: center;
     image-rendering: initial;
 }
 
@@ -301,6 +306,7 @@ animation: spin 2s infinite;
     border-radius: 8px;
     background: white;
     padding: 1em;
+    align-content: center;
 }
 
 .centertext {
@@ -387,7 +393,7 @@ content: "?";
 .dirt {
     width: fit-content;
     padding: .5em 1em .5em 1em;
-    margin-bottom: 1em;
+    margin: .5em;
     font-family: miniwakuwaku;
     background: #e8e0a0;
     background-image: url(/img/dirtbg.png);
@@ -943,6 +949,17 @@ nav .inner .row {
     transform: scale(1.08);
 }
 
+#navlink.smaller {
+    border: 5px solid transparent;
+    border-image: url('/img/imgbordercyan.png') 25;
+    border-image-width: 2;
+    padding: 8px;
+}
+
+#navlink.smaller a {
+    font-family: miniwakuwaku !important;
+}
+
 .magenta {
     filter: hue-rotate(125deg);
 }
@@ -1325,6 +1342,14 @@ footer .quote {
 
 /* other misc things */
 
+textarea.button {
+    resize: none;
+    scrollbar-width: thin;
+    height: 31px;
+    position: relative;
+    top: -3px;
+}
+
 #myBtn {
     overflow: hidden;
     display: none;
@@ -1405,6 +1430,35 @@ background-color: rgba(0, 0, 0, 0.84);
 color: white;
 max-width: 700px;
 margin-bottom: 10px
+}
+
+
+
+.pmdcontent {
+    display:none;
+    align-items: center;
+    justify-content: center;
+}
+
+.pmdcontent .inner {
+    margin: .5em;
+    height: fit-content;
+  }
+
+.pmdicon  {
+    border: 10px solid transparent;
+    border-image: url(/img/pmdtextbox.png) 23;
+    background: linear-gradient(to bottom, rgba(135,199,207,1) 0%,rgba(231,247,175,1) 100%);
+    border-radius: 14px;
+    max-height:80px;
+    max-width:80px;
+    margin: .5em;
+}
+
+.pmdicon img {
+    margin-top: -0.2em;
+  margin-bottom: -0.3em;
+  border-radius: 5px;
 }
 
 .pmd a {
@@ -2076,6 +2130,14 @@ margin-bottom: 10px
         }
 
             @media only screen and (max-width: 800px) {
+
+                .outer {
+                    margin:0;
+                }
+
+                .ad {
+                    max-width: 100% !important;
+                }
 
                 #mobilemenu {
                     display: inline-block;
