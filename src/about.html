@@ -1,7 +1,7 @@
 ---
 title: about
 layout: layouts/cmyk.njk
-pixel: dog
+pixel: "dog"
 css: cmyk
 ---
 
@@ -118,11 +118,21 @@ css: cmyk
 
             <div id="pmdinterests" class="pmdcontent">
                 <div class="pmdicon" style="flex:100%">
-                    <img src="/img/icons/joyous.png" alt="Joyous PMD icon of my Fursona">
+                    <img src="/img/icons/sigh.png" alt="Sighing PMD icon of my Fursona">
                 </div>
 
                 <div class="inner">
-                    Nothin' a good cartoon can't fix!
+                    Just how "interest"-ing can this be, really?
+                </div>
+            </div>
+
+            <div id="pmdmascots" class="pmdcontent">
+                <div class="pmdicon" style="flex:100%">
+                    <img src="/img/icons/pain.png" alt="Pain PMD icon of my Fursona">
+                </div>
+
+                <div class="inner">
+                    Well, I wouldn't really call it being a "<b>mascot</b>", but...
                 </div>
             </div>
 
@@ -134,7 +144,7 @@ css: cmyk
                     <a class="tablinks" onclick="openTab(event, 'interests');pmdTab(event, 'pmdinterests')">Interests</a>
                 </div>
                 <div id="navlink" class="smaller">
-                    <a class="tablinks" onclick="openTab(event, 'aboutmascots')">Mascots</a>
+                    <a class="tablinks" onclick="openTab(event, 'aboutmascots');pmdTab(event, 'pmdmascots')">Mascots <img src="/img/construction.gif" style="margin-left:5px" class="deco" alt="Ferret construction gif"></a>
                 </div>
                 <div id="navlink" class="smaller pinkborder">
                     <a>Extra</a>
@@ -143,30 +153,57 @@ css: cmyk
 
             <div id="aboutinfo" class="inner tabcontent">
 
-                <p>It's hard to summarize a self into a single page, let alone a couple paragraphs.</p>
+                <img class="aboutimage" title="Artwork by Sherwind" src="/img/sherwind.png" alt="Critter and Ishie bughunting together" align="left">
+
+                <!-- maybe turn this into a randomly rotating image? -->
+
+                
 
                 <p>I'm known by quite a few names overall, but my collective screen-name is <b>Chimera.</b> I'm a complex critter-like collective, just coasting by creating on the computer. <img src="/img/emotes/winkrazz.gif" alt="Wink blehh emote"> Animals such as myself don't ascribe to human concepts of gender; but if you must label me, you could consider me some type of "nonbinary". I use it/its pronouns, unless I don't. My hatch date was 25 years ago on April 25th, during the reign of the Dragon. Never fear, if you must know my age - just check the year!</p>
 
                 <p>I consider myself a very passionate person, albeit a bit subdued. Though I may not always have much energy, I try to always have "heart". I am somewhat shy and value my time on my own, just like all good animals should. However, I love the friends I have, and believe myself to be very loyal and caring to those who return the favor. I'd be the skiddish, bitey beast you'd have to do a thousand quests to befriend in an RPG... but at the end of all that effort, you get a powerful creature to fight by your side! Would you take the chance?</p>
 
-                <p>There's tons of things in this world I feel strongly about, so feel free to sniff around for my various ramblings. I'm biologically, spiritually, and mentally enmeshed with the Earth and it's natural world. Zoology, ecology, evolution (speculative and otherwise), and other such things are my forte, even if I tend to keep it close to my chest. Other stuff erring on the media side of my interests include Pokemon, the MOTHER series, Digimon, UTDR, Dungeon Meshi, and a bunch of other stuff.</p>
+                <p>There's tons of things in this world I feel strongly about, so feel free to sniff around for my various ramblings wherever they appear. I'm biologically, spiritually, and mentally enmeshed with the Earth and it's natural world. Zoology, ecology, evolution (speculative and otherwise), and other such things are my forte, even if I tend to keep it close to my chest. Other stuff erring on the media side of my interests include Pokemon, the MOTHER series, Digimon, UTDR, Dungeon Meshi, and a bunch of other stuff.</p>
 
-                <p>In it's entirety, <b>Chimera</b> is an amalgamation of various animal parts. I'm a multiply disabled artist, both physically (fibromyalgia) and mentally (DID+). As a result, my DNA is affected by my surroundings, and mutates accordingly. You may see various sorts of webpages appear, or some disappear altogether... don't worry about the mess! It's all part of the fun. However, please keep in mind that this may result in erratic behavior, or large gaps of inactivity. This also deeply affects me interpersonally, so please don't shy from reaching out to me if any issues arise.</p>
+                <p>In it's entirety, <b>Chimera</b> is an amalgamation of various animal parts. I'm a multiply disabled artist, both physically (fibromyalgia<span title="Amongst other contributing factors">+</span>) and mentally (DID<span title="Someone with Dissociative Identity Disorder... Don't call me 'a system' or 'plural', please!")>+</span>). As a result, my DNA is affected by my surroundings, and mutates accordingly. You may see various sorts of webpages appear, or some disappear altogether... don't worry about the mess! It's all part of the fun. However, please keep in mind that this may result in erratic behavior, or large gaps of inactivity. This also deeply affects me interpersonally, so please don't shy from reaching out to me if any issues arise.</p>
+
+                <p>All in all, my goal in sharing my presence online is to enrich the lives of others in even the smallest possible way. I value self-expression and the ability to share each person's own little "world"... so please enjoy taking a walk around the little glimpses I share of mine. If anything that I can write, draw, or otherwise create here leaves even the slightest impression on you, I'll consider that "mission success". <img src="/img/emotes/biggrin.gif" alt="Big grin emote"> </p>
 
             </div>
 
             <div id="interests" class="inner tabcontent">
-                <p>interests tab</p>
+                <div class="row">
+                    <div class="column">
+                        1
+                    </div>
+
+                    <div class="column">
+                        2
+                    </div>
+                </div>
             </div>
 
-            <div id="aboutmascots" class="inner tabcontent">
-                <p>about mascots tab</p>
-                <img src="/img/auden.gif">
+            <div id="aboutmascots" class="tabcontent">
+
+                <div class="pagedolls" align="center">
+                    <img class="mascot" src="/img/audendog.gif" title="My Fursona">
+                    <img class="mascot" src="/img/audencirrus.gif" title="Cirrus">
+                    <img class="mascot" src="/img/audencritter.gif" title="Critter"></a>
+                </div>
+
+                <div class="inner" style="text-align:center;width:fit-content;margin:0 auto">
+                    <p>More information about each of the site's Mascots will be added here in the future.</p>
+                    <p>The artwork here is by the lovely auden-dahn, aka Hey, Auden!</p>
+
+                    <p>
+                        <a href="https://hey-auden.neocities.org/" target="_blank"><img src="/img/buttons/heyauden.png" alt="Hey Auden button"></a>
+                    </p>
+                </div>
+
             </div>
         </div>
     </div>
 </div>
-
 
 <script>
     function openTab(evt, tabName) {

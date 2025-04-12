@@ -175,6 +175,11 @@ padding:10px;
     border-radius:8px;
 }
 
+.tabcontent .inner {
+    border: inherit;
+    border-radius: inherit;
+}
+
 .outer {
 background-image: var(--outerbg);
 padding:1em;
@@ -1413,6 +1418,37 @@ img.kofiimg  {
     transform: scale(1.05);
     opacity: 1!important;
   }
+
+/* about */
+
+.aboutimage {
+    border-radius: inherit;
+    max-width: 30%;
+    margin: 1em;
+}
+
+#aboutmascots .pagedolls {
+    text-align: center;
+}
+
+#aboutmascots .pagedolls img {
+    max-width: 30%;
+}
+
+.outer.critter {
+    background-image: url('/img/greenpuppy.png');
+    box-shadow: 2px 2px 2px #030104;
+}
+
+.mascotinfo {
+    gap: 1em;
+}
+
+.mascoticon {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
 /* chattable */
 
 #chattable {
@@ -2073,42 +2109,20 @@ margin-bottom: 10px
 
     @media (prefers-reduced-motion: reduce) {
 
-        .reducedmotion {
-            display: inline-block;
-          }
+        footer {
+            background-image: url('/img/stars2static.gif') !important;
+        }
 
-          .motion {
-            display:none;
-          }
+        footer .inner {
+            justify-content: center !important;
+        }
 
-          #kin img:hover {
+        body, footer .quote, .wobble span, .mascot, .loop img:hover {
             animation: none !important;
-            }
-
-          .reducedmotion > details > summary {
-            text-align:center!important;
-            font-size: 0.8em;
-          }
-
-        .squeeze:hover {
-          animation: none;
         }
 
-        body {
-            background-image: url('tile.png');
-        }
-
-        nav {
-            background-image: url('navbg.png');
-            background-position-y: 78px;
-        }
-
-        .titlefont:hover {
-            background-image: url('titlebg.png');
-        }
-
-        #navlink:hover {
-            transform: none;
+        .drophover:hover, #navlink:hover, a.kofi-button:hover, .welcomesona:hover {
+            transform: none !important;
         }
       }
 
@@ -2130,6 +2144,11 @@ margin-bottom: 10px
         }
 
             @media only screen and (max-width: 800px) {
+
+                .tabcontent {
+                    max-height: 75vh;
+                    overflow: scroll;
+                }
 
                 .outer {
                     margin:0;

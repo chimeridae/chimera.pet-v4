@@ -1619,44 +1619,20 @@ details > summary {
 
     @media (prefers-reduced-motion: reduce) {
 
-        .reducedmotion {
-            display: inline-block;
-          }
-        
-          .motion {
-            display:none;
-          }
+        footer {
+            background-image: url('/img/stars2static.gif') !important;
+        }
 
-          #kin img:hover {
+        footer .inner {
+            justify-content: center !important;
+        }
+
+        body, footer .quote, .wobble span, .mascot, .loop img:hover {
             animation: none !important;
-            }
-        
-          .reducedmotion > details > summary {
-            text-align:center!important;
-            font-size: 0.8em;
-          }
-
-        .squeeze:hover {
-          animation: none;
         }
 
-        body {
-            background-image: url('tile.png');
-            animation:none!important;
-            -webkit-animation:none!important;
-        }
-
-        nav {
-            background-image: url('navbg.png');
-            background-position-y: 78px;
-        }
-
-        .titlefont:hover {
-            background-image: url('titlebg.png');
-        }
-
-        #navlink:hover {
-            transform: none;
+        .drophover:hover, #navlink:hover, a.kofi-button:hover, .welcomesona:hover {
+            transform: none !important;
         }
       }
       
