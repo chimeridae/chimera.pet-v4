@@ -245,12 +245,7 @@ background-color: #ffd200;
   margin-left: 0;
   margin-right: 15px;
 }
-.msgWrapper:has(.allMessages[uid="kaW7woNk6lXjj2e8LxWDywo4LAG2"]):before {
-  background-image: url(https://andrew-grider.com/media/me-min.png);
-}
-.msgWrapper:has(.allMessages[uid="qDQkWftkPIMyUDJppSHQTVJI6ex2"]):before {
-  background-image: url(https://dexaroth.neocities.org/favicon.gif);
-}
+
 .msgWrapper:has(.allMessages[uid="CmTN4TSKqYggJKSxaOlvI8PbVFo2"]):before {
   background-image: url(https://files.catbox.moe/91ztsf.gif);
   /* meeeee */
@@ -273,6 +268,24 @@ background-color: #ffd200;
   background-image: url(https://files.catbox.moe/pvom5g.gif);
   /* lemmy */
 }
+.msgWrapper:has(.allMessages[uid="pnHD6xRUoraW5NgXfh0pd595xyt1"]):before {
+  background-image: url(https://files.catbox.moe/czmwhw.png);
+  /* ishie */
+}
+.msgWrapper:has(.allMessages[uid="wGm8k8FHBSP1q7a0WGO535ApU9s2"]):before {
+  background-image: url(https://files.catbox.moe/jgshq1.gif);
+  /* sol */
+}
+.msgWrapper:has(.allMessages[uid="6hRrbFKqIEhmZU8fUiOuhQ2NZ3k1"]):before {
+  background-image: url(https://files.catbox.moe/8g0rvu.gif);
+  /* laika */
+}
+.msgWrapper:has(.allMessages[uid="ysPxw5FoyveZ6bSHVuUszJGXH5y2"]):before {
+  background-image: url(https://files.catbox.moe/8g0rvu.gif);
+  /* laika */
+}
+
+
 
 .recieved:after {
  content: " ";

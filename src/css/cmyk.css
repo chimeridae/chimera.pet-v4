@@ -1347,6 +1347,15 @@ footer .quote {
 
 /* other misc things */
 
+#aboutextra {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.silly img {
+    max-width: 250px;
+}
+
 textarea.button {
     resize: none;
     scrollbar-width: thin;
@@ -1456,16 +1465,6 @@ img.kofiimg  {
   border-radius: inherit;
   height: 75vh;
   width: 100%;
-}
-
-.pmd {
-border-radius: 12px;
-border: 15px solid transparent;
-border-image: url(pmdtextbox.png) 43 round;
-background-color: rgba(0, 0, 0, 0.84);
-color: white;
-max-width: 700px;
-margin-bottom: 10px
 }
 
 
@@ -2144,6 +2143,10 @@ margin-bottom: 10px
         }
 
             @media only screen and (max-width: 800px) {
+
+                .silly img {
+                    max-width: 150px;
+                  }
 
                 .tabcontent {
                     max-height: 75vh;

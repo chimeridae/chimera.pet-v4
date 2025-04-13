@@ -97,6 +97,9 @@ css: cmyk
     </div>
 </div>
 </div>
+<div id="mascots"></div>
+<div id="extra"></div>
+<div id="about"></div>
 <div style="display:flex;flex-direction:row;align-items:center;justify-content:center;" align="center">
     <img src="/img/doghead.gif" alt="Fursona head wiggle pixel"><img style="max-width:60%" src="/img/pawdiv.png" alt="CMY into Rainbow paws divider"><img src="/img/critterhead.gif" alt="Critter head wiggle pixel">
 </div>
@@ -136,18 +139,25 @@ css: cmyk
                 </div>
             </div>
 
+            <div id="pmdextra" class="pmdcontent">
+                <div class="pmdicon" style="flex:100%">
+                    <img src="/img/icons/dizzy.png" alt="Dizzy PMD icon of my Fursona">
+                </div>
+
+                <div class="inner">
+                    H-hold on a second, what is this one even supposed to be... !?
+                </div>
+            </div>
+
             <div align="center" style="margin-bottom:1rem">
                 <div id="navlink" class="smaller greenborder">
                     <a class="tablinks" onclick="openTab(event, 'aboutinfo');pmdTab(event, 'pmdabout')" id="defaultOpen">Basic info</a>
-                </div>
-                <div id="navlink" class="smaller yellowborder">
-                    <a class="tablinks" onclick="openTab(event, 'interests');pmdTab(event, 'pmdinterests')">Interests</a>
                 </div>
                 <div id="navlink" class="smaller">
                     <a class="tablinks" onclick="openTab(event, 'aboutmascots');pmdTab(event, 'pmdmascots')">Mascots <img src="/img/construction.gif" style="margin-left:5px" class="deco" alt="Ferret construction gif"></a>
                 </div>
                 <div id="navlink" class="smaller pinkborder">
-                    <a>Extra</a>
+                    <a class="tablinks" onclick="openTab(event, 'aboutextra');pmdTab(event, 'pmdextra')">Extra</a>
                 </div>
             </div>
 
@@ -170,19 +180,7 @@ css: cmyk
                 <p>All in all, my goal in sharing my presence online is to enrich the lives of others in even the smallest possible way. I value self-expression and the ability to share each person's own little "world"... so please enjoy taking a walk around the little glimpses I share of mine. If anything that I can write, draw, or otherwise create here leaves even the slightest impression on you, I'll consider that "mission success". <img src="/img/emotes/biggrin.gif" alt="Big grin emote"> </p>
 
             </div>
-
-            <div id="interests" class="inner tabcontent">
-                <div class="row">
-                    <div class="column">
-                        1
-                    </div>
-
-                    <div class="column">
-                        2
-                    </div>
-                </div>
-            </div>
-
+            <div id="mascots">
             <div id="aboutmascots" class="tabcontent">
 
                 <div class="pagedolls" align="center">
@@ -201,6 +199,23 @@ css: cmyk
                 </div>
 
             </div>
+        </div>
+
+            <div id="aboutextra" class="tabcontent" style="border:none">
+                <div id="flex" style="flex-wrap:wrap;align-items: center;justify-content: center;gap:1em">
+                {% for post in collections.silly %}
+                
+                    <div class="silly">
+                    <a href="/img/silly/{{ post.data.full }}" draggable="false" data-fancybox="silly" data-caption="{{ post.data.title }}">
+                        {{ post.templateContent }}
+                    </a>
+                    </div>  
+                             
+                {% endfor %}
+                </div>
+
+            </div>
+            <p id="mobilemenu" align="center" style="width:100%;color:white">On your phone? Scroll for more!</p>
         </div>
     </div>
 </div>

@@ -301,7 +301,7 @@ strong {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'pangolin';
+    font-family: 'Basiic Sans';
     color: white;
     text-shadow: -2px 2px 0 #000,
         1px 1px 0 #000,
@@ -1021,13 +1021,14 @@ color: var(--low);
 /* other misc things */
 
 .pmd {
-border-radius: 12px; 
-border: 15px solid transparent; 
-border-image: url(pmdtextbox.png) 43 round;
-background-color: rgba(0, 0, 0, 0.84); 
-color: white; 
-max-width: 700px; 
-margin-bottom: 10px
+border-radius: 12px;
+border: 15px solid transparent;
+border-image: url('/img/pmdtextbox2.png') 43 round;
+padding: 2em;
+border-image-width: 2;
+background-color: rgba(0, 0, 0, 0.84);
+color: white;
+margin-top: 1em;
 }
 
 .pmd a {

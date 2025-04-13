@@ -1,0 +1,80 @@
+<div id="desktop">
+
+<div id="navlink" class="yellowborder"><a title="To the main hub" href="/home">Home</a></div>
+
+<div id="navlink"><a href="/about/">About me</a></div>
+
+<div id="navlink" class="greenborder"><a href="/art/">Art <img src="/img/new4.gif" alt="New!"></a></div>
+
+<div id="navlink" class="pinkborder"><a href="/journal/">Journal</a></div>
+
+<div class="dropdown drophover">
+    <div id="navlink" style="transform:none"><a>Fanpages</a></div>
+    <div class="dropdown-content" style="width:99%">
+        <img src="/img/construction.gif" alt="Under construction!">
+    </div>
+</div>
+
+<div class="dropdown drophover">
+    <div id="navlink" class="pinkborder" style="transform:none"><a>Collections</a></div>
+    <div class="dropdown-content pinkborder" style="width:99%">
+        <img src="/img/construction.gif" alt="Under construction!">
+    </div>
+</div>
+
+<div class="dropdown drophover">
+    <div id="navlink" class="yellowborder" style="transform:none"><a>Sitely Stuff</a></div>
+    <div class="dropdown-content yellowborder" style="width:99%">
+        <a href="/">Splash <img src="/img/pokemon/pikahome.gif" alt="Pikachu going home pixel" class="deco"></a>
+        <a href="/links/">Outlinks <img src="/img/doggy arrow.gif" alt="Doggy arrow pixel" class="deco"></a>
+        <a href="https://chimera.atabook.org/">Guestbook <img src="/img/guestbook.gif" alt="Pen and paper pixel" class="deco"></a>
+        <a href="/credits">Credits <img src="/img/stardew.gif" alt="Stardew kitty face pixel" class="deco"></a>
+    </div>
+</div>
+
+</div>
+
+</div>
+
+{# mobile menu #}
+
+<div id="mobilemenu">
+    <details>
+    <summary><img src="/img/hamburger.png" alt="Navigation hamburger menu"></summary>
+{# mobile links start #}
+
+<div id="navlink" class="yellowborder"><a title="To the main hub" href="/home">Home</a></div>
+
+<div id="navlink"><a href="/about/">About me</a></div>
+
+<div id="navlink" class="greenborder"><a href="/art/">Art <img src="/img/new4.gif" alt="New!"></a></div>
+
+<div id="navlink" class="pinkborder"><a href="/journal/">Journal</a></div>
+
+<div class="dropdown drophover">
+    <div id="navlink" style="transform:none"><a>Fanpages</a></div>
+    <div class="dropdown-content" style="width:99%">
+        <img src="/img/construction.gif" alt="Under construction!">
+    </div>
+</div>
+
+<div class="dropdown drophover">
+    <div id="navlink" class="pinkborder" style="transform:none"><a>Collections</a></div>
+    <div class="dropdown-content pinkborder" style="width:99%">
+       <img src="/img/construction.gif" alt="Under construction!">
+    </div>
+</div>
+
+<div class="dropdown drophover">
+    <div id="navlink" class="yellowborder" style="transform:none"><a>Sitely Stuff</a></div>
+    <div class="dropdown-content yellowborder" style="width:99%">
+        <a href="/">Splash <img src="/img/pokemon/pikahome.gif" alt="Pikachu going home pixel" class="deco"></a>
+        <a href="/links/">Outlinks <img src="/img/doggy arrow.gif" alt="Doggy arrow pixel" class="deco"></a>
+        <a href="https://chimera.atabook.org/">Guestbook <img src="/img/guestbook.gif" alt="Pen and paper pixel" class="deco"></a>
+        <a href="/credits">Credits <img src="/img/stardew.gif" alt="Stardew kitty face pixel" class="deco"></a>
+    </div>
+</div>
+
+{# mobile links end #}
+    </details>
+</div>
