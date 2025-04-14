@@ -1,5 +1,5 @@
 <section class="row">
-    <span class="text"><span title="From now until the end of time!" id="copyright-date">est. 2023 - 20XX</span>&nbsp;<img src="/img/pokemail.gif" alt="Pikachu poking its head out of an envelope labeled メール" class="pixel"> <span class="larger"><a title="Email me!" id="email-link" href="#">chimera</a></span></span>
+    <span class="text"><span title="From now until the end of time!" id="copyright-date">est. 2023 - 20XX</span>&nbsp;<img src="/img/pokemail.gif" alt="Pikachu poking its head out of an envelope labeled メール" class="pixel"> <span class="larger"><a title="Email me!" id="email-link" href="mailto:mail@chimera.pet">chimera</a></span></span>
 </section>
 
 <section>
