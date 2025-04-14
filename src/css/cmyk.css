@@ -2143,6 +2143,9 @@ img.kofiimg  {
         }
 
             @media only screen and (max-width: 800px) {
+                body {
+                    font-size: small;
+                }
 
                 .pmdcontent .inner {
                     font-size: small;

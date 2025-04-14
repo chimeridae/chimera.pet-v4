@@ -134,6 +134,7 @@ html {
 
 .mobileonly #info {
     margin: 3em;
+    margin-top: 10px;
 }
 
 #info {
@@ -294,10 +295,6 @@ strong {
     text-align: center;
     font-family: adelia;
     font-size: 18px;
-}
-
-.punctuation {
-    font-family:cakentruffles!important;
 }
 
 h1, h2, h3, h4 {
@@ -1648,7 +1645,7 @@ details > summary {
                 };
 
                 footer {
-                    position: initial;
+                    position: unset !important;
                 }
 
                 #desktop {
