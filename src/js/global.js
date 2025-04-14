@@ -66,3 +66,21 @@ tippy('a[title]', {
   Fancybox.bind("[data-fancybox]", {
     // Your custom options
   });
+
+  function CMYKbutton() {
+    var copyText = document.getElementById("CMYKbutton");
+    copyText.hidden = false;
+    copyText.select();
+    document.execCommand("copy");
+    copyText.hidden = false;
+    alert("Copied!");
+    }
+
+  function greenbutton() {
+    var copyText = document.getElementById("greenbutton");
+    copyText.hidden = false;
+    copyText.select();
+    document.execCommand("copy");
+    copyText.hidden = false;
+    alert("Copied!");
+    }

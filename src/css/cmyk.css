@@ -2144,8 +2144,12 @@ img.kofiimg  {
 
             @media only screen and (max-width: 800px) {
 
+                .pmdcontent .inner {
+                    font-size: small;
+                }
+
                 .silly img {
-                    max-width: 150px;
+                    max-width: 100px;
                   }
 
                 .tabcontent {
@@ -2175,7 +2179,7 @@ img.kofiimg  {
                 }
 
                 .mascotholder .mascot {
-                    margin-bottom: -4em !important;
+                    margin-bottom: -3em !important;
                 }
                 .column.one {
                     order: 1;
