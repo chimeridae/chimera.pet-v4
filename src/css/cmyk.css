@@ -885,7 +885,8 @@ nav .inner {
     max-height: 32px;
 }
 
-.closed {
+.closed, .full {
+    font-family: miniwakuwaku;
     color: tomato;
 }
 
