@@ -3,39 +3,24 @@
         <title>animal's den ➜ personal updates</title>
         <description>personal site updates for chimera.pet</description>
         <link>https://chimera.pet/home/</link>
+        <language>en-US</language>
+            <managingEditor>mail@chimera.pet (Chimera)</managingEditor>
+            <webMaster>mail@chimera.pet (Chimera)</webMaster>
+            <copyright>20023-2025 "CHIMERA" et. al</copyright>
         <image>
             <title>animal's den</title>
-            <link>https://chimera.pet/</link>
-            <url>https://chimera.pet/img/cmypaw.gif</url>
-            <width>29</width>
-            <height>29</height>
+            <link>https://chimera.pet/home/</link>
+            <url>https://chimera.pet/chimerapet.gif</url>
+            <width>88</width>
+            <height>31</height>
         </image>
 		
         <item>
             <title>chimera.pet v4 debut!</title>
-            <author>
-                <name>chimera</name>
-                <email>mail@chimera.pet</email>
-            </author>
             <description>whoa! after months of quiet work, almost every part of chimera.pet has been totally transformed... welcome to animal's den 4.0!</description>
-            <link>https://chimera.pet/</link>
+            <link>https://chimera.pet/home/</link>
             <guid>post-1</guid>
             <pubDate>Mon 14 Apr 2025, 12:00:00 CST</pubDate>
-        </item>
-        
-        <item>
-            <title>commissions are now open!</title>
-            <author>
-                <name>chimera</name>
-                <email>commissions@chimera.pet</email>
-            </author>
-            <description>to celebrate the new launch, i'm easing myself back into work with a few small slots.</description>
-            <link>https://chimera.pet/art/</link>
-            <guid>post-2</guid>
-            <pubDate>Mon 14 Apr 2025, 14:30:00 CST</pubDate>
-            <style>
-            .post-box .post-tile{background:linear-gradient(to right, rgb(147, 244, 112) 0%,rgba(255,255,255,0) 100%) !important;}.post-box{border-image-source:url(//nekoweb.org/site/chimera/files/img/imgbordergreen.png?original=1)!important;background:url(//nekoweb.org/site/chimera/files/img/art/splash.gif?original=1) 0 0/250px no-repeat #fff;background-position:right -30px!important}
-            </style>
         </item>
     </channel>
 </rss>
