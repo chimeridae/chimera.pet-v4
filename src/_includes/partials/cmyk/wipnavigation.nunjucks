@@ -66,7 +66,7 @@
 </div>
 
 <div class="dropdown drophover">
-    <div id="navlink" class="yellowborder" style="transform:none"><a>Sitely Stuff</a></div>
+    <div id="navlink" class="yellowborder" style="transform:none;position: relative;z-index: -1;"><a>Sitely Stuff</a></div>
     <div class="dropdown-content yellowborder" style="width:99%">
         <a href="/">Splash <img src="/img/pokemon/pikahome.gif" alt="Pikachu going home pixel" class="deco"></a>
         <a href="/links/">Outlinks <img src="/img/doggy arrow.gif" alt="Doggy arrow pixel" class="deco"></a>

@@ -2270,7 +2270,36 @@ img.kofiimg  {
                 }
 
                 #container {
-                    margin:10px;
+                    margin:0;
+                }
+
+                .window-body {
+                    border:none;
+                    box-shadow:none;
+                    margin:0;
+                }
+
+                #myBtn {
+                    bottom: 10px;
+                    left: 10px;
+                    right: unset !important;
+                }
+
+                #status {
+                    border-bottom: 10px solid transparent;
+                    border-image: url('/img/imgbordercyan.png') 23;
+                    border-image-width: 2;
+                    padding-bottom: .5em;
+                    padding-top: .5em;
+                }
+
+                .window,.title-bar {
+                    border-radius: 0;
+                    border: none;
+                }
+
+                footer {
+                    margin-top: 0;
                 }
 
                 #container #flex {

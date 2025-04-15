@@ -328,6 +328,10 @@ h3, h4 {
 
 @media only screen and (max-width: 800px) {
 
+    #status {
+        border-image-source: url('/img/imgborderyellow.png') !important;
+    }
+
     .gallery-holder {
         margin: -2em;
         margin-top: initial;

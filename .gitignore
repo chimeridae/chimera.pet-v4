@@ -6,5 +6,6 @@ node_modules/*
 
 _site
 .vscode/.local-history
+src/pokemon/*
 public/pokemon/*
 
