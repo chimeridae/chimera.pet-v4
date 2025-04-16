@@ -6,7 +6,7 @@
         <language>en-US</language>
             <managingEditor>mail@chimera.pet (Chimera)</managingEditor>
             <webMaster>mail@chimera.pet (Chimera)</webMaster>
-            <copyright>20023-2025 "CHIMERA" et. al</copyright>
+            <copyright>2023-2025 "CHIMERA" et. al</copyright>
         <image>
             <title>animal's den</title>
             <link>https://chimera.pet/home/</link>
@@ -19,7 +19,7 @@
             <title>chimera.pet v4 debut!</title>
             <description>whoa! after months of quiet work, almost every part of chimera.pet has been totally transformed... welcome to animal's den 4.0!</description>
             <link>https://chimera.pet/home/</link>
-            <guid>post-1</guid>
+            <guid isPermaLink="false">post-1</guid>
             <pubDate>Mon 14 Apr 2025, 12:00:00 CST</pubDate>
         </item>
     </channel>
