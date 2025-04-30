@@ -11,7 +11,6 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/img");
   eleventyConfig.addPassthroughCopy("./src/fonts");
   eleventyConfig.addPassthroughCopy("./src/js");
-  eleventyConfig.addPassthroughCopy("./src/not_found.html");
   eleventyConfig.addPassthroughCopy("./src/chimerapet.gif");
   eleventyConfig.addPassthroughCopy("./src/chimerapet2.gif");
   eleventyConfig.addPassthroughCopy("./src/feed.xml");
