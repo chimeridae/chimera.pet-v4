@@ -11,11 +11,29 @@
                 </div>
             </summary>
 
-        <div class="links">    
-        gagagoogoo?
+        <div style="display:flex;align-items:center" class="links">    
+        <img src="/img/pokemon/silvally.png" style="margin-right:5px" alt="Silvally sprite"> Type: <img style="max-height:15px" src="/img/static.gif" alt="REDACTED">
         </div>
         
         </details>
+
+        <details>
+            <summary>
+                <div class="links">
+                    <a><img src="/img/pokemon/pokeballbullet.gif"> characters</a>
+                </div>
+            </summary>
+
+        <div class="links">    
+        Kieran 1
+        </div>
+        
+        <div class="links">    
+        Kieran 2
+        </div>
+
+        </details>
+
         <div class="links">
             <a>regions</a>
         </div>
