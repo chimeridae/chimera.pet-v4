@@ -36,6 +36,25 @@ header {
     color: tomato;
 }
 
+
+.sale {
+    color: tomato !important;
+    text-decoration: line-through;
+    text-decoration-color: black;
+    text-decoration-thickness: 5px;
+}   
+
+.sale::after {
+    content: " SALE!";
+    color: yellowgreen !important;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    display: inline-block;
+    margin-left: .5em;
+}
+
+
+
 .open::after {
     content: "OPEN! " url('/img/happy.gif');
 }
