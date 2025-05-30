@@ -365,6 +365,23 @@ animation: spin 2s infinite;
 
 /* journal styling */
 
+#journal article summary {
+    text-align: center;
+}
+
+#journal article details {
+    padding: 1em;
+    margin: 2em;
+    border: 1px dashed;
+    border-radius: 8px;
+    width: fit-content;
+    text-align: initial;
+}
+
+#journal article h2:hover {
+    transform: none !important;
+}
+
 .question:hover::after {
 content: "?";
 }
@@ -2108,6 +2125,19 @@ img.kofiimg  {
       }
 
     @media (prefers-reduced-motion: reduce) {
+
+        .wooden:hover,.icon:hover {
+            transform: none !important;
+        }
+
+        .entries {
+            background: url('/img/wobblestatic.gif') !important;
+        }
+
+        .entries .outer {
+            background: url('/img/dotscrollstatic.gif');
+            background-size: 15px;
+        }
 
         footer {
             background-image: url('/img/stars2static.gif') !important;
