@@ -1,0 +1,67 @@
+<div id="headwiggle" class="outer greenborder" style="margin-top:1em">
+   <div class="row">
+        
+        <div id="commsdesktop" class="column">
+            <div id="flex" class="examples gallery-thumbs">                
+                {% for post in collections.pmd %}
+                <div style="margin-top:3.5em" class="comminfo pmd thumb">
+                   <a href="/img/art/{{ post.data.full }}" draggable="false" data-fancybox="pmd" data-caption="{{ post.data.title }}">
+                       {{ post.templateContent }}
+                   </a>
+               </div>               
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="column" style="flex:50%">           
+            <div id="commsmobile" align="center"><img alt="Teeny box sprite of Critter yapping" src="/img/art/thumbs/pmdglad.gif"></div>
+            <h2 class="price stroke">PMD-styled animated icon</h2>
+            <span style="font-size:smaller"><h2 class="price stroke">$50</h2></span>
+
+            <div class="inner" id="commsdesktop">
+                <p align="center">A 100x100 animated icon, loosely imitating Pokemon Mystery Dungeon's portraits.</p>
+                <hr class="dashed">
+                <ul style="text-align:left">
+                    <li>One expression per portrait</li>
+                    <li>Anthros, creatures, and humans all okay!</li>
+                    <li>Examples shown are at 2x size</li>
+                </ul>
+            </div>
+
+            <div class="inner" align="center" id="commsmobile">
+                <details>
+                <summary><img src="/img/blackarrow.gif" alt="Black arrow gif"> Full information</summary>
+                    <hr class="dashed">
+                <p align="center">A 100x100 animated icon, loosely imitating Pokemon Mystery Dungeon's portraits.</p>
+                <hr class="dashed">
+                <ul style="text-align:left">
+                    <li>One expression per portrait</li>
+                    <li>Anthros, creatures, and humans all okay!</li>
+                    <li>Examples shown are at 2x size</li>
+                </ul>
+                </details>
+            </div>
+
+            <div class="inner" id="commsmobile" align="center" style="margin-top:1em">
+                <details>
+                    <summary><img src="/img/blackarrow.gif" alt="Black arrow gif"> More examples (click/tap to zoom)</summary>
+                    <hr class="dashed">
+                    
+                    <div id="commsmobile" class="column">
+                        <div id="flex" class="examples gallery-thumbs">                
+                            {% for post in collections.pmd %}
+                            <div class="comminfo pmd thumb">
+                               <a href="/img/art/{{ post.data.full }}" draggable="false" data-fancybox="mobile-pmd" data-caption="{{ post.data.title }}">
+                                   {{ post.templateContent }}
+                               </a>
+                           </div>               
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                </details>
+            </div>
+    </div>
+
+   </div>
+</div>
