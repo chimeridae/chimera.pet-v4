@@ -18,7 +18,7 @@
     --outerbg: url('/img/cmykpuppy.gif');
 
     /* main styling */
-    --main-font: Ms PGothic, Verdana, sans-serif;
+    --main-font: Verdana, sans-serif;
     --main-bg: url('/img/dots.gif');
     --main-bgcolor: white;
     --content: rgb(18, 16, 18);
@@ -113,13 +113,12 @@ display: inline-block;
 body {
     overflow-y: scroll;
     font-family: var(--main-font);
+    font-size: .9em;
     text-rendering: optimizeLegibility;
     margin: 0;
     background-size: var(--body-bg-size);
     color: var(--content);
     background-image: var(--body-bg-image);
-    animation: bgscroll 60s linear infinite;
-    -webkit-animation:bgscroll 60s linear infinite;
 }
 
 
@@ -1353,9 +1352,9 @@ footer .quote {
 
 /* tooltips */
 
-.tippy-tooltip.custom-theme {
+.tippy-box[data-theme~="custom"] {
     background-color: var(--highlight) !important;
-    color: black !important;
+    color: white !important;
   text-align:center;
 }
 
