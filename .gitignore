@@ -10,5 +10,7 @@ src/pokemon/*
 public/pokemon/*
 src/pokemon/pokewalker/*
 public/pokemon/pokewalker/*
-
+src/box/*
+public/box/*
+src/box.html
 

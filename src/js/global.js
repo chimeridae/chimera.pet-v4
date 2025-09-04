@@ -22,6 +22,7 @@ $('.thumb').hover(function() {
 
 tippy('a[title]', {
     theme: 'custom',
+    animation: 'scale-extreme',
     followCursor: true,
     arrow: tippy.narrowArrow,
     zIndex: 9999999999,
@@ -36,6 +37,7 @@ tippy('a[title]', {
   }),
   tippy('span[title]', {
     theme: 'custom',
+    animation: 'scale-extreme',
     followCursor: true,
     arrow: tippy.narrowArrow,
     zIndex: 9999999999,
@@ -50,6 +52,7 @@ tippy('a[title]', {
   }),
   tippy('img[title]', {
     theme: 'custom',
+    animation: 'scale-extreme',
     followCursor: true,
     arrow: tippy.narrowArrow,
     zIndex: 9999999999,

@@ -1014,6 +1014,10 @@ nav .inner .row {
     border-image-source: url('/img/imgbordergreen.png') !important;
 }
 
+.whiteborder {
+    border-image-source: url('/img/imgborderwhite.png') !important;
+}
+
 .dropdown-content.pinkborder a:hover {
     background: var(--dropdown-bg-pink);
 }
@@ -1362,6 +1366,7 @@ footer .quote {
   fill: var(--highlight) !important;
 }
 
+
 /* other misc things */
 
 #aboutextra {
@@ -1542,16 +1547,50 @@ img.kofiimg  {
     filter: drop-shadow(0 0 0.55rem rgb(108, 57, 16));
 }
 
+/* boxes styling */
+
+.boxbody {
+  background-image: url('/img/boxbg.png');
+  width: 50vw;
+  padding: .5em;
+  min-height: 25vh;
+}
 
 
 
-.imood {
-    font-family: basiic;
-    background-image:url('imood.gif');
-    background-repeat:no-repeat;
-    background-position:top 12px center;
-    font-size:14px;
-    line-height:18px;
+.boxname {
+    text-align: center;
+    min-width: 25vw;
+    padding: .5em;
+}
+
+.boxname h2 {
+    margin:0;
+}
+
+.boxsprite:hover {
+    animation-play-state: running;
+    transition: filter 0.2s ease-in-out;
+    filter: drop-shadow(0 0 0.25rem var(--highlight));
+}
+
+.boxsprite {
+    animation: bounce .4s ease-in-out infinite;
+    animation-play-state: paused;
+}
+
+.boxarrows {
+    padding:0;
+    display: flex;
+    align-self: center;
+}
+
+.boxarrows img, .boxarrows a {
+    transition: transform 0.3s ease;
+}
+
+.boxarrows img:hover {
+    transform: scale(1.5);
 }
 
 /* status.cafe styling */
@@ -1579,10 +1618,11 @@ img.kofiimg  {
 }
 
 #statuscafe-content {
-    font-family: basiic sans;
+    font-family: verdana;
+    color: black;
 }
 
-#statuscafe-username, #statuscafe-time, #statuscafe-content {
+#statuscafe-username, #statuscafe-time {
     filter: drop-shadow(0px 1px black) drop-shadow(0 -1px black) drop-shadow(1px 0 black) drop-shadow(-1px 0 black);
 }
 
@@ -2190,9 +2230,7 @@ img.kofiimg  {
                     overflow: scroll;
                 }
 
-                .outer {
-                    margin:0;
-                }
+               
 
                 .ad {
                     max-width: 100% !important;
