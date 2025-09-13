@@ -13,8 +13,8 @@
     /* images */
     --header-image: url('/img/stars.png');
     --title-bg: url('titlebg.gif');
-    --body-bg-image: url('/img/pictochatbg.png');
-    --body-bg-size: initial;
+    --body-bg-image: url('/img/fielddither.png');
+    --body-bg-size: cover;
     --outerbg: url('/img/cmykpuppy.gif');
 
     /* main styling */
@@ -116,9 +116,19 @@ body {
     font-size: .9em;
     text-rendering: optimizeLegibility;
     margin: 0;
-    background-size: var(--body-bg-size);
     color: var(--content);
-    background-image: var(--body-bg-image);
+}
+
+body::before {
+content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: var(--body-bg-image);
+  background-size: cover;
+  z-index: -1;
 }
 
 
