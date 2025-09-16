@@ -6,11 +6,11 @@ node_modules/*
 
 _site
 .vscode/.local-history
-# src/pokemon/*
-# public/pokemon/*
-# src/pokemon/pokewalker/*
-# public/pokemon/pokewalker/*
-# src/box/*
-# public/box/*
-# src/box.html
+src/pokemon/*
+public/pokemon/*
+src/pokemon/pokewalker/*
+public/pokemon/pokewalker/*
+src/box/*
+public/box/*
+src/box.html
 
