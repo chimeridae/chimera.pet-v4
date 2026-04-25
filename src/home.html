@@ -76,35 +76,11 @@ comms: closed
         <!-- UPDATES START -->
         <div class="inner updates">
 
-          <p><img src="/img/new3.gif" alt="Pichu icon that says UP!!"> <b>8/31/2025</b> - new journal entry, changed the font, removed the scrolling background. </p>
-          <!-- note to future chimera: please change this from raw data -->
-          <p><b>5/29/2025</b> - new journal entry added, and various misc edits site-wide</p>
-          <p><b>4/14/2025</b> - whoa! after months of quiet work, almost every part of chimera.pet has been totally transformed... welcome to animal's den 4.0!</p>
-          <!-- ARCHIVES -->
-        <details>
-          <summary><img src="/img/spiral.gif" alt="Color alternating CMYK spiral"> <b>OLDER ENTRIES</b> - peer through the archives...</summary>
-          <p style="border-top: 3px double"><b>2/12/2025</b> - chimera.pet turned 2 years old!</p>
-          <p><b>9/12/24</b> - added basic site mascot intros to the front page, and how to help out</p>
-          <p><b>5/26/2024</b> - gradually been adding mobile optimization and accessibility features nearly-sitewide: added reduced-motion static pngs and slowly adding alt text</p>
-          <p><b>5/3/2024</b> - slowly began to rollout animal's den 3.0 🐾, which revamped the site layout site-wide and includes (hopefully) decent mobile responsiveness! </p>
-          <p><b>4/20/2024</b> - comments are now possible on journal entries </p>
-          <p><b>4/10/2024</b> - added soul silver hub page - reworked pokemon css </p>
-          <p><b>4/05/2024</b> - added pokemon guidebooks </p>
-          <p><b>4/01/2024</b> - april fools! </p>
-          <p><b>3/20/2024</b> - changed web hosts from neocities to nekoweb, incurring lots of small changes around the site </p>
-          <p><b>3/19/2024</b> - transformed the pokemon hub; it now contains much more content outside of the collections!</p>
-          <p><b>10/8/2023</b> - updated fennekin and flareon collections</p>
-          <p><b>10/4/2023</b> - totally new index page! animal's den 2.0 🐾</p>
-          <p><b>9/24/2023</b> - updated about... mind the gap!</p>
-          <p><b>5/17/2023</b> - uploaded some digimon scans and an AMV</p>
-          <p><b>4/29/2023</b> - added a digimon hub and a few pages to it</p>
-          <p><b>3/9/2023</b> - more journals, made site wider, misc edits</p>
-          <p><b>2/18/2023</b> - added flareon's collection page</p>
-          <p><b>2/17/2023</b> - fixed iframes some more, added status to the homepage, and started on the cassettes collection</p>
-          <p><b>2/15/2023</b> - figured out iframes (thank god), added an "about" page, and a small update to my fennekin collection</p>
-          <p><b>2/13/2023</b> - added pokemon + fennekin collection pages!</p>
-          <p><b>2/12/2023</b> - main site layout established... now for the content!</p>
-        </details>
+          {% for post in collections.update reversed %}
+
+             <p class="update"><b>{{ post.data.date | readableDate }}</b> - {{ post.templateContent }}</p>
+                
+          {% endfor %}
 
         </div>
         <!-- UPDATES END -->
@@ -168,7 +144,7 @@ comms: closed
         <h2 style="margin:2% 0 3% 0;display:inline-block"> <img src="/img/tv.gif" alt="TV pixel"> Shoutbox...</h2>
 
         <div class="inner" style="padding:0">
-          <iframe src='https://iframe.chat/embed?chat=35700443' id='chattable' frameborder='none'></iframe>
+          <iframe src='https://iframe.chat/embed/?chat=35700443' id='chattable' frameborder='none'></iframe>
           <script>
             chattable.initialize({
               stylesheet : "/css/chattable.css"

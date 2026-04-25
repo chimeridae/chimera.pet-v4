@@ -5,7 +5,7 @@
   {# opengraph information #}
   <meta charset="UTF-8" />
   <title>animals' den ➜ {{ title }}</title>
-  {% include '../../artopengraph.njk' %}
+  {% include '../../art/artopengraph.njk' %}
   <link href="/img/cmypaw2.gif" rel="shortcut icon" type="image/ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="/css/{{ css }}.css"/>
   <link rel="stylesheet" href="/css/art.css"/>
   <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/dist/backdrop.css" />
-  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6.3.7/animations/scale-extreme.css"/>
+  <link rel="stylesheet" href="/css/tippytest.css"/>
 
   {# JS #}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -26,7 +26,7 @@
 </head>
 
 <body>
-  <button onclick="topFunction()" id="myBtn" title="Back to top">Back to Top<br><img title="Back to top" alt="Back to top" src="/img/by sol.gif"></button>
+  <button onclick="topFunction()" id="myBtn" title="Back to top">Back to Top<br><img title="Back to top" alt="Back to top" src="/img/art/bwcritter.gif"></button>
   <header>{% include 'partials/header.nunjucks' %}</header>
 
   <nav class="sticky">{% include 'partials/navigation.nunjucks' %}</nav>

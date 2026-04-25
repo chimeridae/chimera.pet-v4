@@ -31,9 +31,9 @@ export default function (eleventyConfig) {
   // Human friendly date formatting
   eleventyConfig.addFilter("readableDate", function(dateObj) {
     if (dateObj instanceof DateTime) {
-      return dateObj.toFormat("dd LLLL yyyy");
+      return dateObj.toFormat("LLLL dd, yyyy");
     } else if (dateObj instanceof Date) {
-      return DateTime.fromJSDate(dateObj).toFormat("dd LLLL yyyy");
+      return DateTime.fromJSDate(dateObj).toFormat("LLLL dd, yyyy");
     } else {
       return "Unknown date";
     }
@@ -51,5 +51,6 @@ export const config = {
     includes: "_includes",
   },
 };
+
 
 

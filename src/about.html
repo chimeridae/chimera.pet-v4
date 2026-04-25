@@ -204,7 +204,7 @@ css: cmyk
 
             <div id="aboutextra" class="tabcontent" style="border:none">
                 <div id="flex" style="flex-wrap:wrap;align-items: center;justify-content: center;gap:1em">
-                {% for post in collections.silly %}
+                {% for post in collections.silly reversed %}
                 
                     <div class="silly">
                     <a href="/img/silly/{{ post.data.full }}" draggable="false" data-fancybox="silly" data-caption="{{ post.data.title }}">

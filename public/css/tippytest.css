@@ -1,0 +1,24 @@
+.tippy-box[data-animation=scale-extreme][data-placement^=top] {
+	transform-origin: bottom
+}
+
+.tippy-box[data-animation=scale-extreme][data-placement^=bottom] {
+	transform-origin: top
+}
+
+.tippy-box[data-animation=scale-extreme][data-placement^=left] {
+	transform-origin: right
+}
+
+.tippy-box[data-animation=scale-extreme][data-placement^=right] {
+	transform-origin: left
+}
+
+.tippy-box[data-animation=scale-extreme][data-state=hidden] {
+	transform: scale(0);
+	opacity: .25
+}
+
+.tippy-box[data-inertia][data-state=visible] {
+    transition-timing-function:cubic-bezier(.54,1.5,.38,1.11);
+}
