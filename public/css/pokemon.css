@@ -6,6 +6,7 @@
     --border: black;
     --border-hover: black;
     --sidebar-holder: #415940 url('/img/pokemon/XD4.png');
+    --header-bg: #257bee;
 }
 
 main.inner {

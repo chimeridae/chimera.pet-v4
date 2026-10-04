@@ -4,6 +4,7 @@
 :root {
 
     /* body */
+    --bg-color: #6a94ab;
     --highlight: #1f1d1f;
     --selection: rgb(138, 186, 67);
     --cyan: #72c8d5;
@@ -117,6 +118,7 @@ body {
     text-rendering: optimizeLegibility;
     margin: 0;
     color: var(--content);
+    background-color: var(--bg-color);
 }
 
 body::before {
@@ -1095,6 +1097,18 @@ nav .inner .row {
     color: black;
     background: var(--dropdown-bg-cyan);
     font-weight: 999;
+}
+
+  .dropdown-content a:first-child:hover {
+    border-radius: 8px 8px 0px 0px;
+}
+
+  .dropdown-content a:nth-child(3):hover {
+    border-radius: 0px 0px 8px 8px;
+}
+
+  .dropdown-content a:nth-child(4):hover {
+    border-radius: 0px 0px 8px 8px;
 }
 
 .dropdown:hover .dropdown-content {display: block;}

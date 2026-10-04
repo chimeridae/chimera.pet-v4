@@ -17,25 +17,7 @@
     <section class="heartgold">
    
 
-    <form method="post" action="https://poll.pollcode.com/67255341">
-    
-        <div style="padding:2px 0px 4px 2px;"><strong>Which Kieran do you like best?</strong></div>
-        <input type="radio" name="answer" value="1" id="answer672553411" style="float:left;" />
-        <label for="answer672553411" style="float:left">Teal Mask</label>
-        <div style="clear:both;height:2px;"></div>
-        <input type="radio" name="answer" value="2" id="answer672553412" style="float:left;" />
-        <label for="answer672553412" style="float:left">Indigo Disk</label>
-        <div style="clear:both;height:2px;"></div>
-        <input type="radio" name="answer" value="3" id="answer672553413" style="float:left;" />
-        <label for="answer672553413" style="float:left">Mochi Mayhem</label>
-        <div style="clear:both;height:2px;"></div>
-        <div align="center" style="padding:3px;">
-            <input type="submit" value=" Vote ">&nbsp;
-            <input type="submit" name="view" value=" View ">
-   
-        <div class="pollcode" align="right"><a href="https://pollcode.com/">pollcode.com</a></div>
-    </div>
-</form>
+   <ws-widget type="polls" iid="17783"></ws-widget>
 
     </p>
     <p style="margin:-18px" align="right"><img src="/img/pokemon/pointer.gif"></p>
