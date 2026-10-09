@@ -1,50 +1,41 @@
-<rss version="2.0">
-    <channel>
-        <title>animal's den ➜ personal updates</title>
-        <description>personal site updates for chimera.pet</description>
-        <link>https://chimera.pet/home/</link>
-        <language>en-US</language>
-            <managingEditor>mail@chimera.pet (Chimera)</managingEditor>
-            <webMaster>mail@chimera.pet (Chimera)</webMaster>
-            <copyright>2023-2025 "CHIMERA" et. al</copyright>
-        <image>
-            <title>animal's den</title>
-            <link>https://chimera.pet/home/</link>
-            <url>https://chimera.pet/chimerapet.gif</url>
-            <width>88</width>
-            <height>31</height>
-        </image>
-
-        <item>
-            <title>new journal entry: A little over a quarter</title>
-            <description>A birthday retrospective on what is probably the worst few years of my life. Content warning for mentions of incest.</description>
-            <link>https://chimera.pet/journal/5/</link>
-            <guid isPermaLink="false">post-5</guid>
-            <pubDate>Sat 25 Apr 2026, 00:10:35 CST</pubDate>
-        </item>
-
-        <item>
-            <title>new journal entry: Nonartistic title, nonartistic solutions</title>
-            <description>Spilling my guts about art, trauma, and the overlap of my relationship with the two. All feelings, no substance here.</description>
-            <link>https://chimera.pet/journal/4/</link>
-            <guid isPermaLink="false">post-4</guid>
-            <pubDate>Fri 31 Aug 2025, 00:02:00 CST</pubDate>
-        </item>
-
-        <item>
-            <title>new journal entry: 🔞 Break out, luck out!</title>
-            <description>Just lamenting on tough recent life events. 🔞⚠ CONTENT WARNING: this entry briefly touches on serious topics relevant to CPTSD. Please proceed with caution.</description>
-            <link>https://chimera.pet/journal/3/</link>
-            <guid isPermaLink="false">post-3</guid>
-            <pubDate>Fri 30 May 2025, 00:00:00 CST</pubDate>
-        </item>
-		
-        <item>
-            <title>chimera.pet v4 debut!</title>
-            <description>whoa! after months of quiet work, almost every part of chimera.pet has been totally transformed... welcome to animal's den 4.0!</description>
-            <link>https://chimera.pet/home/</link>
-            <guid isPermaLink="false">post-1</guid>
-            <pubDate>Mon 14 Apr 2025, 12:00:00 CST</pubDate>
-        </item>
-    </channel>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://chimera.pet/home/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>animal&#39;s den ➜ personal updates</title>
+    <link>https://chimera.pet/home/</link>
+    <atom:link href="https://chimera.pet/feed.xml" rel="self" type="application/rss+xml" />
+    <description>personal site updates for chimera.pet</description>
+    <language>en</language>
+    <item>
+      <title></title>
+      <link>https://chimera.pet/updates/2026-10-09/</link><description>added two new journal entries (&lt;a href=&quot;https://chimera.pet/journal/status-update-10-26&quot;&gt;1&lt;/a&gt; + &lt;a href=&quot;https://chimera.pet/journal/no-more-larping/&quot;&gt;2&lt;/a&gt;) with new journal pagination, added &lt;a href=&quot;https://chimera.pet/box/yellow/&quot;&gt;boxes&lt;/a&gt; to the about page, some extra links, and an RSS button</description><pubDate>Fri, 09 Oct 2026 00:00:00 -0500</pubDate>
+      <dc:creator>Chimera</dc:creator>
+      <guid>https://chimera.pet/updates/2026-10-09/</guid>
+    </item>
+    <item>
+      <title></title>
+      <link>https://chimera.pet/updates/2026-04-25/</link><description>a &lt;a href=&quot;https://chimera.pet/journal/over-a-quarter&quot;&gt;new journal entry&lt;/a&gt;, and spring cleaning site-wide after a long hiatus. getting back into the swing of things</description><pubDate>Sat, 25 Apr 2026 00:00:00 -0500</pubDate>
+      <dc:creator>Chimera</dc:creator>
+      <guid>https://chimera.pet/updates/2026-04-25/</guid>
+    </item>
+    <item>
+      <title></title>
+      <link>https://chimera.pet/updates/2025-08-31/</link><description>&lt;a href=&quot;https://chimera.pet/journal/nonartistic-title/&quot;&gt;new journal entry,&lt;/a&gt; changed the font, removed the scrolling background.</description><pubDate>Sun, 31 Aug 2025 00:00:00 -0500</pubDate>
+      <dc:creator>Chimera</dc:creator>
+      <guid>https://chimera.pet/updates/2025-08-31/</guid>
+    </item>
+    <item>
+      <title></title>
+      <link>https://chimera.pet/updates/2025-05-29/</link><description>new journal entry added, and various misc edits site-wide</description><pubDate>Thu, 29 May 2025 00:00:00 -0500</pubDate>
+      <dc:creator>Chimera</dc:creator>
+      <guid>https://chimera.pet/updates/2025-05-29/</guid>
+    </item>
+    <item>
+      <title></title>
+      <link>https://chimera.pet/updates/2025-04-14/</link><description>whoa! after months of quiet work, almost every part of chimera.pet has been totally transformed... welcome to animal&#39;s den 4.0!</description><pubDate>Mon, 14 Apr 2025 00:00:00 -0500</pubDate>
+      <dc:creator>Chimera</dc:creator>
+      <guid>https://chimera.pet/updates/2025-04-14/</guid>
+    </item>
+  </channel>
 </rss>

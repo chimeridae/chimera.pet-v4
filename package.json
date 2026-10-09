@@ -11,7 +11,8 @@
   "author": "",
   "type": "module",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy": "^3.1.6",
+    "@11ty/eleventy-plugin-rss": "^3.1.0",
     "@fancyapps/ui": "^5.0.36",
     "eleventy-plugin-blog-tools": "^0.4.1",
     "luxon": "^3.5.0",

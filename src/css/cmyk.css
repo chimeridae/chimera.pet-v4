@@ -17,6 +17,7 @@
     --body-bg-image: url('/img/fielddither.png');
     --body-bg-size: cover;
     --outerbg: url('/img/cmykpuppy.gif');
+    --outercolor: #F8F0E0;
 
     /* main styling */
     --main-font: Verdana, sans-serif;
@@ -193,6 +194,7 @@ padding:10px;
 
 .outer {
 background-image: var(--outerbg);
+background-color: var(--outercolor);
 padding:1em;
 margin: 0.5em;
 border: 10px solid transparent;
@@ -376,6 +378,22 @@ animation: spin 2s infinite;
 
 /* journal styling */
 
+.next, .previous {
+    margin-top: .5em !important;
+}
+
+.next {
+    margin-left: auto !important;
+}
+
+.previous {
+    margin-right: auto;
+}
+
+.pagination {
+    justify-content: space-between;
+}
+
 #journal article summary {
     text-align: center;
 }
@@ -502,7 +520,7 @@ article.cyanborder a:hover {
     color: #2f6eff !important;
 }
 
-h2 a:hover::after {
+article h2 a:hover::after {
     content: url('/img/doggy arrow2.gif');
 }
 
@@ -2465,7 +2483,7 @@ img.kofiimg  {
                 }
 
                 header {
-                    height: 100px;
+                    height: 100px !important;
                 }
 
                 footer .quote {

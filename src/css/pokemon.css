@@ -6,12 +6,11 @@
     --border: black;
     --border-hover: black;
     --sidebar-holder: #415940 url('/img/pokemon/XD4.png');
-    --header-bg: #257bee;
+    --header-bg: #e0c888;
 }
 
-main.inner {
-    border: none;
-    border-radius: 8px;
+.inner p {
+    margin: .5em;
 }
 
 .dashed {
@@ -60,7 +59,7 @@ main header {
 }
 
 .mascot {
-    top: 5vmax !important;
+    top: 6vmax !important;
 }
 
 .logo {
@@ -136,12 +135,14 @@ aside section:hover {
 
 .outer {
     color: #533c33;
+    border: 7px solid transparent;
     background: var(--outerbg);
     padding:1.5em;
-    border-image: url('/img/pokemon/inner.png') 16;
+    border-image: url('/img/pokemon/textboxes/dottyhgss.png') 20;
     border-image-width: 2;
     image-rendering: initial !important;
-    border-radius:21px;
+    box-shadow: none;
+    border-image-repeat: repeat;
     }
 
 /* sidebar styling */
@@ -166,6 +167,11 @@ aside section:hover {
     background-position: center;
 }
 
+.mortar {
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%,rgba(255,255,255,0) 100%), url('/img/pokemon/mtmortar.png');
+    background-position: top;
+}
+
 .quote {
   position: relative;
   display: inline-block;
@@ -175,6 +181,7 @@ aside section:hover {
 
 .marquee {
   background: url('/img/pokemon/XD6.png');
+  background-color: #655c4a;
   padding: .5em;
   color: white;
   font-family: ranyth;
@@ -219,4 +226,116 @@ label {
     border-radius: 5px;
     padding-top: .5em;
     padding-bottom: .5em;
+    margin: 0.5em;
+}
+
+.ranyth {
+    font-family: ranyth;
+}
+
+table img {
+    max-width: 25vw!important;
+    border: 1px solid #ffde6b;
+    box-shadow: 0 1px 0 2px black, inset 0 1px 0 1px #63636b, 0 0 0 2px black, inset 0 0 0 1px #63636B;
+    border-radius: .8em;
+}
+
+table {
+    margin: 1em;
+    text-align: center;
+    font-size: smaller;
+    font-family: inherit;
+}
+
+td {
+    padding: .5em;
+}
+
+.updates {
+    scrollbar-color: gray white;
+}
+
+hr.stick {
+    display:block;
+    margin:1em;
+    border: 24px solid transparent;
+    border-bottom: 0;
+    border-image-slice: 30 fill;
+    border-image-source: url('/img/pokemon/dividers/04.gif');
+}
+
+hr.fence {
+    display:block;
+    margin:1em;
+    border: 20px solid transparent;
+    border-bottom: 0;
+    border-image-slice: 30 fill;
+    border-image-source: url('/img/pokemon/dividers/line4.gif');
+}
+
+
+.wooden:hover {
+    transform: none!important;
+}
+
+.row {
+    gap: .5em;
+}
+
+.POTM {
+    padding: .5em;
+    transition: transform 0.3s ease-out;
+}
+
+.POTM:hover {
+    transform: scale(1.1);
+}
+
+#quote {
+  padding:1.5em;
+  margin: 0.5em;
+  border:7px solid transparent;
+  border-image: url('/img/pokemon/textboxes/pokeballplatinum.png') 20;
+  border-image-width: 2;
+  border-image-slice: 20 fill;
+  display:inline-block;
+  background-color:white;
+  color:black;
+  font-size: smaller;
+  }
+  
+  #footer {
+  z-index:9999;
+  border-radius:0px 0px 10px 10px;
+  width:auto;
+  padding:5px;
+  margin:-5px;
+    margin-top:5px;
+  text-align:right;
+  border-top: 1px dashed black;
+  }
+
+.dirt {
+    width:unset;
+    justify-content:center;
+    text-align:center;
+    gap:.5em;
+}
+
+@media only screen and (max-width: 800px) {
+#leftsidebar, #rightsidebar {
+    display: none;
+    visibility: collapse;
+}
+aside h3 {
+    padding:0!important;
+}
+
+aside section .links {
+    padding: 0.2em !important;
+}
+
+.POTM {
+    max-width:50vw !important;
+}
 }

@@ -15,6 +15,7 @@ textselect[11] = "Love your Animal!"
 textselect[12] = "Keep it real!"
 textselect[13] = "In my new life, I've got WINGS! And CLAWS!" // shoutout rat kid (ada rook - weed store kratom)
 textselect[14] = "Let's take this all the way 'til it breaks!" // PARTY TIME SEXY DISORDER
+textselect[15] = "I'm a community... Who are you?'" // many voices newsletter
 textselect[16] = "Squeak squeak!" // RAT KID LIFESTYLE... and rats
 textselect[17] = "Mankind is kept alive by bestial acts" //  “What Keeps Mankind Alive?” from The Threepenny Opera (1928)
 textselect[18] = "If only I were born again..." // from cubivore
@@ -34,5 +35,6 @@ textselect[31] = "Nothin' a good cartoon can't fix!"
 textselect[32] = "Chimeras have invaded your cyberspace!"
 textselect[33] = "Be cunning, and full of tricks!" // watership down again, of course
 
-    var r = Math.floor(33*Math.random())
-    document.getElementById("footer_text").innerHTML = "&quot;" + textselect[r] + "&quot;";       
+    var r = Math.floor(textselect.length * Math.random());
+    document.getElementById("footer_text").innerHTML = "&quot;" + textselect[r] + "&quot;";     
+// finally fixed this undefined bug

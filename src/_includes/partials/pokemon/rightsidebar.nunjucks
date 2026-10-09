@@ -5,11 +5,17 @@
 <main>
     <section class="blank">
         <div>
-            <p align="center"><img src="https://archives.bulbagarden.net/media/upload/9/9c/Spr_3e_162.png"></p>
-            
+            <p align="center">
+                <a href="/pokemon/POTM/hzorua/">
+                    <img class="POTM" alt="Official Dreamworld art of Hisuian Zorua" src="/img/pokemon/official/hzoruadreamworld.png">
+                </a>
+            </p>
         </div>
     </section>
-</main>
+
+    <p style="color:white" align="center">[ <a href="/pokemon/POTM/">past entries</a> ]</p> 
+
+    </main>
 
 <h3 class="ilex">Poll</h3>
 
@@ -26,7 +32,7 @@
     <p style="color:white" align="center">[ <a>poll history</a> ]</p>
 </main>
 
-<h3 class="viridian">Shoutbox</h3>
+{# <h3 class="viridian">Shoutbox</h3>
 
 <main>
     <section class="blank">
@@ -37,7 +43,7 @@
     });
     </script>
     </section>
-</main>
+</main> #}
 
 <h3 class="viridian">Affiliates</h3>
 
@@ -50,7 +56,7 @@
 
 <h3 class="ilex">Credits</h3>
 
-<main>
+<main style="height:100%">
     <section>
         <div class="links">
             <a>graphics</a>

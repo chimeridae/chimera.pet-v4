@@ -8,7 +8,7 @@
             <a><img src="/img/pokemon/pokeball.gif" alt="Wobbling pokeball pixel"> pokemon</a>
         </div>
         <div class="links">
-            <a><img src="/img/pokemon/goldbike.gif" alt="Trainer Gold on a bike sprite"> characters</a>
+            <a><img src="/img/pokemon/N.gif" alt="N portrait sprite"> characters</a>
         </div>
         <div class="links">
             <a><img src="/img/globe.gif" alt="Spinning earth pixel"> regions</a>
@@ -39,26 +39,56 @@
 
 <main>
     <section>
+        <details>
+            <summary>
+                <div class="links">
+                    <a><img src="/img/pokemon/goldbike.gif" alt="Trainer Gold on a bike sprite"> personal</a>
+                </div>
+            </summary>
+
         <div class="links">
-            <details>
-                <summary><a>hello</a></summary>
-                        <div class="links">
-            <a>lalala</a>
+                <a href="/pokemon/means" style="font-weight:lighter!important">what pokemon means to me</a>
         </div>
-            </details>
-        </div>
+
+        </details>
     </section>
+    {# Informational start #}
+    <section>
+        <details>
+            <summary>
+                <div class="links">
+                    <a><img src="/img/pokemon/kaiju.gif" alt="Rhydon menu sprite" style="max-width:16px"> informative</a>
+                </div>
+            </summary>
+
+        <div class="links">
+                <a style="font-weight:lighter">S/V OT nonsense</a>
+        </div>
+
+        </details>
+    </section>
+    {# Informational end #}
 </main>
 
 <h3 class="pokewalker">Pokewalker</h3>
 
+<main>
+    <section>
+        <div class="links">
+            <a><img src="/img/pokewalker.gif" alt="Pokewalker pixel"> accessories</a>
+        </div>
+        <div class="links">
+            <a href="/pokemon/pokewalker/trivia/"><img src="/img/pokewalker.gif" alt="Pokewalker pixel"> trivia</a>
+        </div>
+    </section>
+</main>
+
+<h3 class="mortar">Resources</h3>
+
 <main style="height:100%">
     <section>
         <div class="links">
-            <a>accessories</a>
-        </div>
-        <div class="links">
-            <a href="/pokemon/pokewalker/trivia/">trivia</a>
+            <a>image borders</a>
         </div>
     </section>
 </main>

@@ -1,0 +1,41 @@
+---
+title: my journal ➜ collective entries
+layout: layouts/cmyk.njk
+pixel: cmypaw
+css: cmyk
+icon: icon
+eleventyExcludeFromCollections: true
+---
+<section id="journal" style="margin:-20px">
+  <div class="row">
+    <div class="entries column">
+      {% for post in collections.collective reversed %}
+      <article class="outer {{ post.data.color }}border" >
+          <h2 class="title"><a href="{{post.url}}"> {{ post.data.title }} </a></h2>
+          <div id="flex">
+            <section class="icon"> 
+            <img src="/img/icons/{{ post.data.icon }}.png" alt="Journal entry icon"> 
+            </section>   
+
+            <div class="inner">
+              {% block content %}            
+                <p>{{ post.templateContent | truncate: 250 | strip_html }} <i><a title="Read the full entry!" class="question" href="{{post.url}}">keep reading</a></i></p>
+              {% endblock %}
+            </div>
+          </div>
+          <section class="journal-footer">
+            <span class="date">{{ post.date | date_to_long_string }} <img src="/img/date.gif" alt="Journal pixel"></span>
+            <span class="date">tagged as: 
+              {% for tag in post.data.tags %}
+              <a class="tag" href="/journal/tagged/{{ tag }}">{{ tag }}</a>
+              {% endfor %}
+              </span>
+          </section>
+      </article>
+      {% endfor %}
+    </div>
+
+    {% include 'journalinfo.njk' %}
+    
+  </div>
+</section>

@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="/css/{{ css }}.css"/>
   <link rel="stylesheet" href="/css/pokemon.css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://iframe.chat/scripts/main.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
   <link rel="stylesheet" href="/css/tippytest.css"/>
@@ -27,14 +26,26 @@
       <header>{% include 'src/pokemon/header.nunjucks' %}</header>
       {% include 'src/pokemon/marquee.nunjucks' %}
       <div id="flex">
+        {# this is where you want to put the mobile menu #}
+        <nav id="mobilemenu" class="sticky">
+          <details>
+            <summary>
+              <img src="/img/pokemon/nav.png" alt="Nav button">
+            </summary>
+          <aside id="mobilemenu" style="border-radius: 10px;">
+            {% include 'partials/pokemon/mobileleftsidebar.nunjucks' %}
+            {% include 'partials/pokemon/mobilerightsidebar.nunjucks' %}
+          </aside>
+          </details>
+        </nav>
         <aside id="leftsidebar">
-        {% include 'partials/pokemon/leftsidebar.nunjucks' %}
+          {% include 'partials/pokemon/leftsidebar.nunjucks' %}
         </aside>
         <section class="wrapper" style="width:100%">
-        {{ content | safe }} 
+          {{ content | safe }} 
         </section>
         <aside id="rightsidebar">
-        {% include 'partials/pokemon/rightsidebar.nunjucks' %} 
+          {% include 'partials/pokemon/rightsidebar.nunjucks' %} 
         </aside>     
       </div>
     </main>

@@ -1,0 +1,74 @@
+
+<details>
+<summary><h3 class="viridian">Pokemon of the Month</h3></summary>
+
+<main>
+    <section class="blank">
+        <div>
+            <p align="center">
+                <a href="/pokemon/POTM/hzorua/">
+                    <img class="POTM" alt="Official Dreamworld art of Hisuian Zorua" src="/img/pokemon/official/hzoruadreamworld.png">
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <p style="color:white" align="center">[ <a href="/pokemon/POTM/">past entries</a> ]</p> 
+
+</main>
+</details>
+
+<details>
+<summary><h3 class="ilex">Poll</h3></summary>
+
+<main>
+    <section class="heartgold">
+   
+
+   <ws-widget type="polls" iid="17783"></ws-widget>
+
+    </p>
+    <p style="margin:-18px" align="right"><img src="/img/pokemon/pointer.gif"></p>
+    </section>
+
+    <p style="color:white" align="center">[ <a>poll history</a> ]</p>
+</main>
+</details>
+{# <h3 class="viridian">Shoutbox</h3>
+
+<main>
+    <section class="blank">
+    <iframe src='https://iframe.chat/embed?chat=02068712' id='chattable' frameborder='none'></iframe>
+    <script>
+    chattable.initialize({
+        stylesheet : "/css/pokemonchattable.css"
+    });
+    </script>
+    </section>
+</main> #}
+
+<details>
+<summary><h3 class="viridian">Affiliates</h3></summary>
+
+<main>
+    <section class="blank">
+        <p style="color:white" align="center">None... yet.</p>
+    </section>
+    <p style="color:white" align="center"><img src="/img/pokemon/cirrus2.gif"><br>Want to be listed here? Email me!</p>
+</main>
+</details>
+
+<details>
+<summary><h3 class="ilex">Credits</h3></summary>
+
+<main style="height:100%">
+    <section>
+        <div class="links">
+            <a>graphics</a>
+        </div>
+        <div class="links">
+            <a>resources</a>
+        </div>
+    </section>
+</main>
+</details>
