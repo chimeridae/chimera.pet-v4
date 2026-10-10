@@ -1,0 +1,65 @@
+.follow, .following {
+    background-color: #fff;
+    border: 3px double black;
+    border-radius: 6px;
+    font-family:verdana;   
+   }
+   
+.site-box:before {
+  content: url(//nekoweb.org/files/chimera.pet/248c48bc-97b4-4f04-aaac-476ac1734565);
+  position: absolute;
+  z-index: 9;
+  right: 0;
+  bottom: 0;
+}
+
+.site-box:after {
+  content: url('https://chimera.nekoweb.org/chimera.pet/img/siteboxlogo.png');
+  position: absolute;
+  transform: scale(0.85);
+  left: -47px;
+  top: -21px;
+}
+
+
+   .site-box {
+       text-align: center;
+       background: linear-gradient(to bottom, rgba(254,255,232,0.2) 0%,rgba(63, 45, 23, 0.5)100%), url('https://chimera.nekoweb.org/chimera.pet/img/tv.jpg'); /* Only nekoweb URLs allowed, use full url to your site like https://example.nekoweb.org/images/coolbg.png */
+       background-size:100%;
+       border: 5px solid transparent;
+       border-image: url('https://chimera.nekoweb.org/chimera.pet/img/imgbordergreen.png') 35;
+       border-image-width: 5;
+       transition: transform 0.3s;
+       box-shadow: 0px 0px 1px 0.5px #d300ff inset, 0px 2px 3px #000000a8;
+     border-radius: 18px;
+   }
+   
+   .site-box:hover {
+    transform: scale(.95);
+   }
+
+   .site-box .sitefeature {
+  margin-left: 12px;
+  border: none;
+   }
+   
+   .site-box > a > p {
+    font-size: 20px;
+    color: white;
+    filter: drop-shadow(0px 1px black) drop-shadow(0 -1px black) drop-shadow(1px 0 black) drop-shadow(-1px 0 black);
+    margin-right: 40px;
+   }
+
+   .site-box > img .screenshot, .site-box .sitefeature {
+       border-radius: 10px;
+   }
+
+   .site-box .site-title {
+    display: none;
+   }
+
+   .site-box > a > span {
+    display:inline-block;
+    background-color: rgba(255, 255, 255, 0.8);
+    content: url('https://chimera.nekoweb.org/chimera.pet/img/cmyklogo.svg');
+    }

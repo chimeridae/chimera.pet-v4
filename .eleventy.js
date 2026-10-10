@@ -37,6 +37,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/js");
   eleventyConfig.addPassthroughCopy("./src/chimerapet.gif");
   eleventyConfig.addPassthroughCopy("./src/chimerapet2.gif");
+  eleventyConfig.addPassthroughCopy("./src/elements.css");
   eleventyConfig.addPassthroughCopy("./src/feed.xml");
 
   // Defines shortcode for generating post excerpts
