@@ -661,6 +661,16 @@ article h2 a:hover::after {
     border-radius: 0px 40px 8px 0px;
 }
 
+/* photos styling */
+
+
+#photos .info {
+    background: url('/img/cmykpuppy.gif');
+    border-right: 5px double;
+    flex: 5%;
+    padding: 1.5em;
+}
+
 /* sidebar styling */
 
 
@@ -677,122 +687,6 @@ filter: drop-shadow(0 0 0.10rem rgb(0, 0, 0));
 filter: drop-shadow(0 0 0.25rem rgb(225, 182, 72));
 }
 
-/* energy, mood bars */
-
-@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
-
-#moodbar {
-	font-family: "ranyth", sans-serif;
-z-index: 5000;
-	overflow: hidden;
-	margin: 10px;
-	text-align: left;
-	background-color: rgba(0,0,0,0.7);
-	border: 2px solid #fff;
-	border-radius: 11px;
-	font-weight: 400;
-	font-size: 1rem;
-	box-shadow: 1px 1px 2px #333;
-}
-
-#mood{
-	text-shadow: -1px 1px 0 #000,
-			1px 1px 0 #000,
-			1px -1px 0 #000,
-			-1px -1px 0 #000;
-background: linear-gradient(to bottom,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);
-	display:inline-block;
-	height: 100%;
-	vertical-align: middle;
-	line-height: 200%;
-	color: #fff;
-	border-right: 1px solid #ffffff75;
-	box-shadow: 1px 1px 2px #333;
-	text-align:right;
-	width: var(--mood);
-}
-
-#energybar {
-	text-shadow: -1px 1px 0 #000,1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
-	
-	font-family: "ranyth", sans-serif;
-z-index: 5000;
-	overflow: hidden;
-	margin: 10px;
-	text-align: left;
-	background-color: rgba(0,0,0,0.7);
-	border: 2px solid #fff;
-	border-radius: 11px;
-	font-weight: 400;
-	font-size: 1rem;
-	box-shadow: 1px 1px 2px #333;
-}
-
-#energy{
-	background: linear-gradient(to bottom,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);
-	display:inline-block;
-	height: 100%;
-	vertical-align: middle;
-	line-height: 200%;
-	color: #fff;
-	border-right: 1px solid #ffffff75;
-	box-shadow: 1px 1px 2px #333;
-	text-align:right;
-	width: var(--energy);
-}
-
-/* scrobbled last.fm widget JS by Tepiloxtl.net <3 */
-
-.scrobbled {
-	font-family:basiic;
-	max-width: 100%;
-	border: 2px solid black;
-	background:linear-gradient(to bottom, rgba(43,20,8,0) 0%,rgba(137,70,4,1) 100%),url('yellow.gif');
-	color: white;
-	text-align: left;
-	line-height:1.2;
-	padding: 10px;
-    padding-top: 0;
-	box-shadow: 0px 2px 3px #0000005c;
-}
-
-#musicBox {
-    display: flex;
-    }
-
-#listening img {
-    height: 50px;
-    width: 50px;
-    margin-right: 10px;
-    margin-top: 5px;
-}
-
-#listeningStatus, #trackInfo {
-    font-size:0.7em;
-}
-
-#trackInfo #trackName, #artistName{
-margin: 0;
-}
-
-#trackStatus {
-    margin: 5%;
-    text-align: center;
-}
-
-#trackStatus img {
-    height:initial; width: 10px; margin: 0 ;
-}
-
-#blob {
-    border-radius: 50%;
-    height: 10px;
-    width: 10px;
-    box-shadow: 0 0 0 0 #5dff8a;
-    margin-top: 3px;
-    float: left;
-  }
 
 /* Header styling */
 
@@ -921,6 +815,8 @@ nav .inner {
     position: relative;
     left: 1em;
 }
+
+/* comms */
 
 .open, .closed {
     font-family: miniwakuwaku;
@@ -1531,8 +1427,6 @@ img.kofiimg  {
   width: 100%;
 }
 
-
-
 .pmdcontent {
     display:none;
     align-items: center;
@@ -1655,11 +1549,11 @@ img.kofiimg  {
     text-decoration:none;
 }
 
-#statuscafe-username, #statuscafe-time, #statuscafe-content {
+#statuscafe-username, #statuscafe-time, #statuscafe-content, #nekocafe-text, #nekocafe-status {
     display:inline-block;
 }
 
-#statuscafe-content {
+#statuscafe-content, #nekocafe-status {
     font-family: verdana;
     color: black;
 }
@@ -1679,6 +1573,8 @@ img.kofiimg  {
 #statuscafe-username a {
     font-family: 'basiic sans';
 }
+
+
 
 @font-face {
     font-family: miniwakuwaku;
@@ -2436,6 +2332,15 @@ img.kofiimg  {
 
                 .row {
                     flex-direction: column;
+                }
+
+                #photos .row {
+                    flex-direction: column-reverse;
+                }
+
+                #photos .info {
+                    border-right: none;
+                    border-bottom: 5px double black;
                 }
 
                 aside {

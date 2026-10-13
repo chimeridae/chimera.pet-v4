@@ -20,7 +20,7 @@
 <div class="dropdown drophover">
     <div id="navlink" class="pinkborder" style="transform:none"><a>Collections</a></div>
     <div class="dropdown-content pinkborder" style="width:99%">
-        <a href="">Pokemon <img src="/img/pokewalker.gif" alt="Pokewalker pixel" class="deco"></a>
+        <a href="/photos">Photos <img src="/img/photos.gif" alt="Photos pixel" class="deco"></a>
         <a href="">Cassettes <img src="/img/cassette.gif" alt="Walkman pixel" class="deco"></a>
         <a href="">Games <img src="/img/ds.gif" alt="Nintendo DS pixel" class="deco"></a></a> 
     </div>

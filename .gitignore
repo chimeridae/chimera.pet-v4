@@ -10,4 +10,6 @@ src/pokemon/*
 public/pokemon/*
 src/pokemon/pokewalker/*
 public/pokemon/pokewalker/*
+src/photos.html
+public/photos.html
 

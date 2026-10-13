@@ -48,11 +48,11 @@
 </main> #}
 
 <details>
-<summary><h3 class="viridian">Affiliates</h3></summary>
+<summary><h3 class="viridian">Outlinks</h3></summary>
 
 <main>
     <section class="blank">
-        <p style="color:white" align="center">None... yet.</p>
+        {% include 'partials/pokemon/outlinks.nunjucks' %}
     </section>
     <p style="color:white" align="center"><img src="/img/pokemon/cirrus2.gif"><br>Want to be listed here? Email me!</p>
 </main>

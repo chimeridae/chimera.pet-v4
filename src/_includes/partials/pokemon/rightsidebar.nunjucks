@@ -32,24 +32,11 @@
     <p style="color:white" align="center">[ <a>poll history</a> ]</p>
 </main>
 
-{# <h3 class="viridian">Shoutbox</h3>
+<h3 class="viridian">Outlinks</h3>
 
 <main>
     <section class="blank">
-    <iframe src='https://iframe.chat/embed?chat=02068712' id='chattable' frameborder='none'></iframe>
-    <script>
-    chattable.initialize({
-        stylesheet : "/css/pokemonchattable.css"
-    });
-    </script>
-    </section>
-</main> #}
-
-<h3 class="viridian">Affiliates</h3>
-
-<main>
-    <section class="blank">
-        <p style="color:white" align="center">None... yet.</p>
+        {% include 'partials/pokemon/outlinks.nunjucks' %}
     </section>
     <p style="color:white" align="center"><img src="/img/pokemon/cirrus2.gif"><br>Want to be listed here? Email me!</p>
 </main>

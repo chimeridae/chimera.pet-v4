@@ -4,7 +4,7 @@
     <div class="inner">
     <div id="statuscafe">
 					<div id="statuscafe-username"><a title="My status.cafe (opens in a new tab!)" target="_blank" href="https://status.cafe/users/chimera">chimera</a> said:</div>
-					<div id="statuscafe-content"></div><script src="/js/status.js" defer></script>
+					<div id="statuscafe-content"></div><ws-widget type="status" iid="20188"></ws-widget>
    </div>
     </div>
     <div id="statuscafe-time"></div>
