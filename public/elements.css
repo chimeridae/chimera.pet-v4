@@ -6,7 +6,7 @@
    }
    
 .site-box:before {
-  content: url(//nekoweb.org/files/chimera.pet/248c48bc-97b4-4f04-aaac-476ac1734565);
+  content: url('https://chimera.nekoweb.org/chimera.pet/img/harpy.gif');
   position: absolute;
   z-index: 9;
   right: 0;

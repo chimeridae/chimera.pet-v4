@@ -6,7 +6,7 @@ css: cmyk
 ---
 
 <div id="flex" class="dirt">
-  <h2 style="margin:0"><img src="/img/pokemon/doggy.gif"> Welcome to the World of Pokemon!</h2>
+  <h2 style="margin:0"><img src="/img/pokemon/doggy.gif" alt="Doggy menu sprite"> Welcome to the World of Pokemon!</h2>
 </div>
 <div class="row">
   <div class="column">
@@ -23,35 +23,22 @@ css: cmyk
 </div>
 
 
-  <hr class="stick">
 
-<div id="flex">
-  <div class="column">
-      <div class="outer">
-        <div class="inner">
 
-        </div>
-      </div>
-  </div>
-  <div class="column" style="flex:20%!important">
-      <div class="soulsilver">
-      <span class="ranyth stroke" style="color:white;margin: .5em;">
-        changelog . . . 
-      </span>
-      <hr style="border-top: dashed 1px !important;border: none;"/>
-
-      <!-- UPDATES START -->
-        <div class="updates">
-
-          {% for post in collections.pokemonupdate reversed %}
-
-             <p class="update"><b>{{ post.data.date | readableDate }}</b> - {{ post.templateContent }}</p>
-                
-          {% endfor %}
-
-        </div>
-        <!-- UPDATES END -->
-
-      </div>
-  </div>
+  <div id="flex" class="wooden" style="justify-content:center;">
+  <h2 style="margin:0"><img src="/img/pokemon/airmail.png" alt="Air Mail sprite"> Page Updates</h2>
 </div>
+
+ <hr class="stick">
+
+  <!-- UPDATES START -->
+
+      {% for post in collections.pokemonupdate reversed %}
+          <div class="outer grass" style="padding:1em!important">
+            <div class="inner">
+            <p> <b><span style="color:white" class="stroke">{{ post.data.date | readableDate }}</span></b> - {{ post.templateContent }}</p>
+            </div>
+          </div>
+      {% endfor %}
+
+    <!-- UPDATES END -->

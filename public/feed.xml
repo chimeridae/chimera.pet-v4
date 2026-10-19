@@ -9,6 +9,13 @@
     <language>en</language>
     <item>
       <title></title>
+      <link>https://chimera.pet/updates/2026-10-19/</link><description>
+updated the header artwork with a commission from &lt;a href=&quot;https://bsky.app/profile/kawaanago0827.bsky.social&quot; target=&quot;_blank&quot;&gt;@kawaanago0827&lt;/a&gt;, to match the one on the art side</description><pubDate>Mon, 19 Oct 2026 00:00:00 -0500</pubDate>
+      <dc:creator>Chimera</dc:creator>
+      <guid>https://chimera.pet/updates/2026-10-19/</guid>
+    </item>
+    <item>
+      <title></title>
       <link>https://chimera.pet/updates/2026-10-09/</link><description>added two new journal entries (&lt;a href=&quot;https://chimera.pet/journal/status-update-10-26&quot;&gt;1&lt;/a&gt; + &lt;a href=&quot;https://chimera.pet/journal/no-more-larping/&quot;&gt;2&lt;/a&gt;) with new journal pagination, added &lt;a href=&quot;https://chimera.pet/box/yellow/&quot;&gt;boxes&lt;/a&gt; to the about page, some extra links, and an RSS button</description><pubDate>Fri, 09 Oct 2026 00:00:00 -0500</pubDate>
       <dc:creator>Chimera</dc:creator>
       <guid>https://chimera.pet/updates/2026-10-09/</guid>
@@ -30,12 +37,6 @@
       <link>https://chimera.pet/updates/2025-05-29/</link><description>new journal entry added, and various misc edits site-wide</description><pubDate>Thu, 29 May 2025 00:00:00 -0500</pubDate>
       <dc:creator>Chimera</dc:creator>
       <guid>https://chimera.pet/updates/2025-05-29/</guid>
-    </item>
-    <item>
-      <title></title>
-      <link>https://chimera.pet/updates/2025-04-14/</link><description>whoa! after months of quiet work, almost every part of chimera.pet has been totally transformed... welcome to animal&#39;s den 4.0!</description><pubDate>Mon, 14 Apr 2025 00:00:00 -0500</pubDate>
-      <dc:creator>Chimera</dc:creator>
-      <guid>https://chimera.pet/updates/2025-04-14/</guid>
     </item>
   </channel>
 </rss>

@@ -229,6 +229,14 @@ label {
     margin: 0.5em;
 }
 
+.gold {
+    border-image-source: url('/img/pokemon/textboxes/goldhgss.png');
+}
+
+.grass {
+    border-image-source: url('/img/pokemon/textboxes/grassplatinum.png');
+}
+
 .ranyth {
     font-family: ranyth;
 }
@@ -277,6 +285,7 @@ hr.fence {
 .wooden:hover {
     transform: none!important;
 }
+
 
 .row {
     gap: .5em;
