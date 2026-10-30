@@ -37,6 +37,7 @@ main {
 }
 
 .wrapper {
+    background-color: #fff2ab;
     box-shadow: 1px 1px 5px 1px black inset;
     padding: 1.5em;
 }
@@ -329,6 +330,12 @@ hr.fence {
     justify-content:center;
     text-align:center;
     gap:.5em;
+}
+.separatoryellow {
+    padding: .5em;
+    background: url('/img/pokemon/bgjohto.gif');
+    border: 1px solid sienna;
+    background-size: 60px;
 }
 
 @media only screen and (max-width: 800px) {

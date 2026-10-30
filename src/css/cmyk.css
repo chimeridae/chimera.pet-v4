@@ -72,6 +72,10 @@ img:active, a:active, button:active {
     display: flex;
 }
 
+#comments {
+    display: flex;
+}
+
 #leftSidebar {
     order: 1;
 }

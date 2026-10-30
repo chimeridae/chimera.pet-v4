@@ -8,7 +8,7 @@
             <a><img src="/img/pokemon/pokeball.gif" alt="Wobbling pokeball pixel"> pokemon</a>
         </div>
         <div class="links">
-            <a><img src="/img/pokemon/N.gif" alt="N portrait sprite"> characters</a>
+            <a href="/pokemon/characters/"><img src="/img/pokemon/N.gif" alt="N portrait sprite"> characters</a>
         </div>
         <div class="links">
             <a><img src="/img/globe.gif" alt="Spinning earth pixel"> regions</a>

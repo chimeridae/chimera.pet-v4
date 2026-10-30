@@ -46,7 +46,7 @@
 <main style="height:100%">
     <section>
         <div class="links">
-            <a>graphics</a>
+            <a href="/pokemon/graphics/">graphics</a>
         </div>
         <div class="links">
             <a>resources</a>
